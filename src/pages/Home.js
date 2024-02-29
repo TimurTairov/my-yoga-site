@@ -19,7 +19,7 @@ const Home = () => {
         <Image src={myPhoto} className="home-img" />
       </div>
       <header className="flex-header mt-4">
-        <h3 className="header__title text-muted">
+        <h3 className="text-muted">
           <Image src={om} className='gif' />
           Намасте
           <Image src={namaste} className='gif' />

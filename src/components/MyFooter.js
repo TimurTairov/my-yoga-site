@@ -2,7 +2,7 @@ import { Container, Image } from "react-bootstrap"
 import '../styles/MyFooter.css'
 import vk from '../img/VK.png'
 import tg from '../img/tg.png'
-import insta from '../img/insta.jpg'
+import insta from '../img/instagram.png'
 import youtube from '../img/youtube.png'
 import trishula from '../images/emblem_64x64.png'
 
@@ -31,16 +31,16 @@ const MyFooter = () => {
 
         </div>
 
+        <div className="container-item"></div>
+
         <div className="container-item">
           <h5>Тиртхадева</h5>
-          <h6>© All Rights Reserved 2024™</h6>
-          <h6>Om Namah Shivaya</h6>
+          <h5>© All Rights Reserved 2024™</h5>
+          <h5>Om Namah Shivaya</h5>
           <Image src={trishula} className='gif' />
         </div>
 
-        {/* <div className="container-item">
 
-        </div> */}
       </Container >
     </footer>
   )

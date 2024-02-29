@@ -12,6 +12,7 @@
 .my-footer a {
   text-decoration: none;
   transition: all 0.3s;
+  margin-bottom: 5px;
 }
 
 .my-footer h5 {
@@ -22,11 +23,6 @@
   padding-bottom: 3px;
 }
 
-.my-footer h4,
-.my-footer h6 {
-  color: #ccc;
-  text-transform: uppercase;
-}
 .my-footer a,
 .my-footer li {
   color: #c8c8c8;
@@ -45,4 +41,32 @@
   flex-direction: column;
   justify-content: left;
   /* align-items: center; */
+}
+
+@media ((max-width: 540px)) {
+  .my-footer h5,
+  .my-footer a {
+    font-size: 1rem;
+  }
+}
+
+@media ((max-width: 430px)) {
+  .my-footer h5,
+  .my-footer a {
+    font-size: 0.9rem;
+  }
+}
+
+@media ((max-width: 360px)) {
+  .my-footer h5,
+  .my-footer a {
+    font-size: 0.8rem;
+  }
+}
+
+@media ((max-width: 320px)) {
+  .my-footer h5,
+  .my-footer a {
+    font-size: 0.7rem;
+  }
 }

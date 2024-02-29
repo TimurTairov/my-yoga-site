@@ -14,7 +14,7 @@ const NavBar = () => {
               {/* <Navbar.Brand href="/" className='navlink'>My Portfolio</Navbar.Brand> */}
 
               <Nav.Link className='navlink' href='/'>
-                <Image src={om108} roundedCircle className='om108'></Image>
+                {/* <Image src={om108} roundedCircle className='om108'></Image> */}
                 Главная
               </Nav.Link>
             </Nav>

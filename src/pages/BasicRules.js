@@ -10,7 +10,7 @@ const BasicRules = () => {
   return (
     <Container>
       <h1 className='tittle'>Хатха йога. Основные положения.</h1>
-      <Image src={kovrik} />
+      <Image src={kovrik} className='gifka' />
       <h5 className='text-muted'>
         <br />
         Хатха йога неотъемлемая часть Кундалини и Раджа йоги. Это фундамент и основа более утонченных практик. Многие сиддхи и риши практиковали этот вид йоги.<br />
@@ -138,7 +138,7 @@ const BasicRules = () => {
       <Button className='flat-btn' variant='flat' onClick={() => navigate('/schedule')}>Расписание</Button> */}
 
       {/* <Image src='https://media.giphy.com/media/mFSIxgqW3TCJGutxQZ/giphy.gif' className='big-gif' /> */}
-      <Image src={suryaNamaskar} className='big-gif' />
+      <Image src={suryaNamaskar} className='gifka' />
 
     </Container>
   )
