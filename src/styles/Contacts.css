@@ -1,0 +1,26 @@
+li {
+  list-style: none;
+}
+.contacts-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-container-contacts {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.flex-item {
+  /* display: flex;
+  flex-direction: row; */
+  margin: 20px;
+  padding: 5px;
+  height: 100px;
+  width: 255px;
+  border: 0.5px solid lightgrey;
+  border-radius: 10px;
+}

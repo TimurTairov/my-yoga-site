@@ -1,0 +1,162 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.certificate-slider {
+  display: block;
+  width: 600px;
+  height: 800px;
+  padding: 1rem;
+}
+
+.slider-img {
+  display: block;
+  width: auto;
+  height: 800px;
+  padding: 1rem;
+  /* margin-left: 200px;
+  margin-right: 200px; */
+}
+
+.slider-feedback {
+  display: block;
+  width: 600px;
+  height: 800px;
+  padding: 1rem;
+}
+
+.slider-guru {
+  /* display: block; */
+  max-width: 100%;
+  max-height: auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.slider-parampara {
+  /* display: block; */
+  max-width: 33%;
+  max-height: auto;
+  padding: 1rem;
+}
+
+/* .carousel .carousel-indicators button {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+} */
+
+.carousel .carousel-control-next-icon.changed {
+  border: 2px solid darkcyan;
+  border-radius: 20px;
+}
+.carousel .carousel-control-prev-icon.changed {
+  border: 2px solid darkcyan;
+  border-radius: 20px;
+}
+
+@media ((max-width: 800px)) {
+  .slider-img {
+    display: block;
+    width: auto;
+    height: 750px;
+    padding: 20px;
+  }
+  .certificate-slider {
+    width: 600px;
+    height: 800px;
+  }
+}
+
+@media ((max-width: 540px)) {
+  .slider-img {
+    display: block;
+    max-width: 400;
+    height: 350px;
+    padding: 20px;
+  }
+  .certificate-slider {
+    width: 400px;
+    height: 500px;
+  }
+  .slider-feedback {
+    width: 490px;
+    height: 590px;
+  }
+  iframe {
+    width: 350px;
+    height: 180px;
+  }
+}
+
+@media ((max-width: 430px)) {
+  .slider-img {
+    display: block;
+    max-width: 400;
+    height: 350px;
+    padding: 20px;
+  }
+  .certificate-slider {
+    width: 400px;
+    height: 500px;
+  }
+  .slider-feedback {
+    width: 350px;
+    height: 450px;
+  }
+  iframe {
+    width: 300px;
+    height: 150px;
+  }
+}
+
+@media ((max-width: 360px)) {
+  .slider-img {
+    display: block;
+    width: 300;
+    height: 280px;
+    padding: 10px;
+  }
+  .certificate-slider {
+    width: 300px;
+    height: 400px;
+  }
+  .slider-feedback {
+    width: 300px;
+    height: 400px;
+  }
+  iframe {
+    width: 270px;
+    height: 160px;
+  }
+}
+
+@media ((max-width: 320px)) {
+  .slider-img {
+    display: block;
+    width: 300;
+    height: 280px;
+    padding: 10px;
+  }
+  .certificate-slider {
+    width: 250px;
+    height: 380px;
+  }
+  .slider-feedback {
+    width: 300px;
+    height: 400px;
+  }
+  iframe {
+    width: 250px;
+    height: 150px;
+  }
+}
+
+@media ((max-width: 280px)) {
+  iframe {
+    width: 220px;
+    height: 120px;
+  }
+}

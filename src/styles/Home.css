@@ -1,0 +1,69 @@
+.home-img {
+  width: 30%;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  padding: 0.6rem;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.flex-header {
+  text-align: center;
+}
+.flex-img {
+  text-align: center;
+}
+.flex-main {
+  text-align: center;
+}
+.my-name {
+  color: darkcyan;
+}
+.home-tittle {
+  font-weight: 700;
+  color: darkcyan;
+}
+.trishula {
+  width: 100%;
+  height: auto;
+}
+
+.flat-btn {
+  /* background-color: purple; */
+  background-color: crimson;
+  color: white;
+  font-size: 1.5rem;
+  margin: 10px;
+}
+
+.redcolor {
+  color: aliceblue;
+  background-color: bluevi;
+}
+
+@media ((max-width: 800px)) {
+  .flat-btn {
+    font-size: 1.3rem;
+  }
+}
+
+@media ((max-width: 430px)) {
+  .flat-btn {
+    font-size: 1rem;
+  }
+  .trishula {
+    width: 400;
+  }
+}
+
+@media ((max-width: 320px)) {
+  .flat-btn {
+    font-size: 0.7rem;
+  }
+  .trishula {
+    width: 300;
+  }
+}
