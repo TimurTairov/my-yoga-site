@@ -1,12 +1,11 @@
 import React from 'react'
-import { useNavigate } from 'react-router-dom'
-import { Container, Image, Button } from 'react-bootstrap'
+import { Container, Image } from 'react-bootstrap'
 import sun from '../gif/sun.gif'
 import krishna from '../gif/Krisna.gif'
 import '../styles/Gif.css'
 
 const Education = () => {
-  const navigate = useNavigate()
+
   return (
     <Container>
       <h1 className='tittle'>Образование</h1>
@@ -37,13 +36,8 @@ const Education = () => {
         До этого носил имя Тимур Брахмачари.
         <br /> <br />
       </h4>
-      {/* <Button className='flat-btn' variant='flat' onClick={() => navigate('/certificates')}>Сертификаты</Button>
-      <Button className='flat-btn' variant='flat' onClick={() => navigate('/myphoto')}>Фото</Button>
-      <Button className='flat-btn' variant='flat' onClick={() => navigate('/contacts')}>Контакты</Button>
-      <Button className='flat-btn' variant='flat' onClick={() => navigate('/schedule')}>Расписание</Button> */}
 
       <Image src={krishna} className='giphy' />
-
 
     </Container>
   )
