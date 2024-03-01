@@ -61,6 +61,10 @@
   margin-right: auto;
   width: 14em;
 }
+.yandex-metrika {
+  position: absolute;
+  left: -9999px;
+}
 
 @media ((max-width: 540px)) {
   .my-footer h5,

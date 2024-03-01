@@ -38,6 +38,12 @@ const MyFooter = () => {
             <p className='footer-h5'>© All Rights Reserved 2024™</p>
             <p className='footer-h5'>Om Namah Shivaya</p>
             <Image src={trishula} className="icon" />
+
+            {/* <img
+              src="https://mc.yandex.ru/watch/96625809"
+              alt=""
+            /> */}
+
           </div>
 
         </div>
