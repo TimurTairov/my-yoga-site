@@ -1,12 +1,10 @@
 import React from 'react'
-import { useNavigate } from 'react-router-dom'
 import { Container, Image } from 'react-bootstrap'
 import suryaNamaskar from '../gif/suryannamaskar.gif'
 import kovrik from '../gif/file1.gif'
 
 
 const BasicRules = () => {
-  const navigate = useNavigate()
   return (
     <Container>
       <h1 className='tittle'>Хатха йога. Основные положения.</h1>
@@ -134,10 +132,7 @@ const BasicRules = () => {
         <br />
         Тиртхадева
       </h5>
-      {/* <Button className='flat-btn' variant='flat' onClick={() => navigate('/feedbacks')}>Отзывы</Button>
-      <Button className='flat-btn' variant='flat' onClick={() => navigate('/schedule')}>Расписание</Button> */}
 
-      {/* <Image src='https://media.giphy.com/media/mFSIxgqW3TCJGutxQZ/giphy.gif' className='big-gif' /> */}
       <Image src={suryaNamaskar} className='gifka' />
 
     </Container>

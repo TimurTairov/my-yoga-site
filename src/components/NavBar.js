@@ -1,6 +1,5 @@
 import React from 'react'
 import { Navbar, Container, Nav, NavDropdown, Image } from 'react-bootstrap'
-import om108 from '../images/om108.jpg'
 import '../styles/Navbar.css'
 
 const NavBar = () => {
@@ -10,14 +9,11 @@ const NavBar = () => {
         <Container>
           <Navbar.Toggle aria-controls='responsive-navbar-nav' className='navbar-button' />
           <Navbar.Collapse id='responsive-navbar-nav'>
-            <Nav className='me-auto top-menu'>
-              {/* <Navbar.Brand href="/" className='navlink'>My Portfolio</Navbar.Brand> */}
 
-              <Nav.Link className='navlink' href='/'>
-                {/* <Image src={om108} roundedCircle className='om108'></Image> */}
-                Главная
-              </Nav.Link>
+            <Nav className='me-auto top-menu'>
+              <Nav.Link className='navlink' href='/'>Главная</Nav.Link>
             </Nav>
+
             <Nav className='top-menu my-nav'>
               <NavDropdown title='О себе' id='basic-nav-dropdown'>
                 <NavDropdown.Item className='nav-dropdown-item' href='/education'>Образование</NavDropdown.Item>
