@@ -1,6 +1,6 @@
 import React from 'react'
-import { useNavigate } from 'react-router-dom'
-import { Container, Carousel, Button } from 'react-bootstrap'
+
+import { Container, Carousel } from 'react-bootstrap'
 import img1 from '../images/MyPhoto/001.jpg'
 import img2 from '../images/MyPhoto/002.jpg'
 import img3 from '../images/MyPhoto/003.jpg'
@@ -28,15 +28,13 @@ import '../styles/Slider.css'
 
 const MyPhoto = () => {
 
-  const navigate = useNavigate()
-
   return (
     <Container className='main-container'>
       <h1 className="tittle">Мои фото</h1>
 
       <Carousel slide fade touch data-bs-theme="dark"
-        nextIcon={<span aria-hidden="true" className="carousel-control-next-icon changed" />}
-        prevIcon={<span aria-hidden="true" className="carousel-control-prev-icon changed" />}
+      // nextIcon={<span aria-hidden="true" className="carousel-control-next-icon changed" />}
+      // prevIcon={<span aria-hidden="true" className="carousel-control-prev-icon changed" />}
       >
 
         <Carousel.Item className='d-flex justify-content-center'>
@@ -201,12 +199,6 @@ const MyPhoto = () => {
 
       </Carousel>
 
-      {/* <div>
-        <Button className='flat-btn' variant='flat' onClick={() => navigate('/education')}>О себе</Button>
-        <Button className='flat-btn' variant='flat' onClick={() => navigate('/certificates')}>Сертификаты</Button>
-        <Button className='flat-btn' variant='flat' onClick={() => navigate('/contacts')}>Контакты</Button>
-        <Button className='flat-btn' variant='flat' onClick={() => navigate('/schedule')}>Расписание</Button>
-      </div> */}
 
     </Container>
   )

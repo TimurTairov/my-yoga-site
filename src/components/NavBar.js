@@ -5,7 +5,9 @@ import '../styles/Navbar.css'
 const NavBar = () => {
   return (
     <>
-      <Navbar bg="light" data-bs-theme="light" collapseOnSelect expand='lg' className='my-navbar'>
+      <Navbar
+        bg="light" data-bs-theme="light"
+        collapseOnSelect expand='lg' className='my-navbar'>
         <Container>
           <Navbar.Toggle aria-controls='responsive-navbar-nav' className='navbar-button' />
           <Navbar.Collapse id='responsive-navbar-nav'>

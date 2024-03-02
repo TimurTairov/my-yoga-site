@@ -1,4 +1,4 @@
-import { Container, Image } from "react-bootstrap"
+import { Container, Image, Navbar } from "react-bootstrap"
 import '../styles/MyFooter.css'
 import vk from '../img/VK.png'
 import tg from '../img/tg.png'
@@ -8,8 +8,9 @@ import trishula from '../images/emblem_64x64.png'
 
 const MyFooter = () => {
   return (
+
     <footer className="my-footer">
-      <Container className="footer-container">
+      <Container fluid className="footer-container">
         <div className="row">
 
           <div className="col-md-3 col-6 footer-content">
@@ -39,10 +40,6 @@ const MyFooter = () => {
             <p className='footer-h5'>Om Namah Shivaya</p>
             <Image src={trishula} className="icon" />
 
-            {/* <img
-              src="https://mc.yandex.ru/watch/96625809"
-              alt=""
-            /> */}
 
           </div>
 
@@ -50,6 +47,7 @@ const MyFooter = () => {
 
       </Container >
     </footer>
+
   )
 }
 
