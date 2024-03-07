@@ -4,6 +4,7 @@
   color: darkcyan;
   /* text-transform: uppercase; */
   font-size: 1.7rem;
+  font-weight: 500;
 }
 
 #basic-nav-dropdown {
@@ -19,18 +20,22 @@
 .nav-dropdown-item:active {
   background-color: darkcyan;
 }
+.dropdown-menu {
+  --bs-dropdown-border-color: darkcyan;
+}
 
 #basic-nav-dropdown:hover,
 .navlink:hover {
   color: darkcyan;
-  font-weight: 500;
+  font-weight: 600;
   border-bottom: 3px solid darkcyan;
   width: 100%;
 }
 
 .nav-dropdown-item:hover {
+  background-color: #b1eec87a;
   color: darkcyan;
-  font-weight: 500;
+  font-weight: 600;
   border-bottom: 2px solid darkcyan;
   width: 100%;
 }

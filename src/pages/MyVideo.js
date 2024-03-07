@@ -154,11 +154,8 @@ const MyVideo = () => {
         </Accordion.Item>
       </Accordion>
       <br />
+
       <Image src='https://media.giphy.com/media/Pz0CYaHBmIQvbMaRTh/giphy.gif' className='gifka' />
-
-      {/* <Image src='https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeXY0MXNudnRmd29tM3M4Yzl5OXZsajB2ZHgzMHB2dWp4NnBwejZsayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2GkxJ16MDbBdK/giphy.gif' /> */}
-
-      {/* <Image src='https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYjNnYXFic3AzZzk2bDM5YzVxOXk5bHJtYjNicjg0dW4wYXdxZmtxZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l0COJ5gIPUN2vOj5u/giphy.gif' /> */}
 
     </Container >
   )

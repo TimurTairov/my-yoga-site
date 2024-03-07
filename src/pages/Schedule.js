@@ -39,9 +39,13 @@ const Schedule = () => {
         <Image src={info} className='small-gif' />
         Вторник 18:00 здоровая спина (дети) (60 минут) <br />
         <Image src={info} className='small-gif' />
+        Вторник 19:00 Хатха йога (взрослые) (60 минут) <br />
+        <Image src={info} className='small-gif' />
         Четверг 17:00 Хатха йога (взрослые) (60 минут) <br />
         <Image src={info} className='small-gif' />
         Четверг 18:00 здоровая спина (дети) (60 минут) <br />
+        <Image src={info} className='small-gif' />
+        Четверг 19:00 Хатха йога (взрослые) (60 минут) <br />
       </h5>
 
       <h3 className='text-muted'>4. <a href='https://ddsport.fitness/' target='_blank' rel='noreferrer'>Фитнес клуб DD Sport</a></h3>
