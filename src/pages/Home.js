@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import { Button, Container, Image } from 'react-bootstrap'
 import myPhoto from '../images/myphoto.jpg'
 import done from '../gif/done-96.png'
-import namaste from '../gif/namaste.gif'
+import namaste from '../images/namaste.png'
 import om from '../gif/om.gif'
 import trishula from '../gif/trishula.gif'
 
