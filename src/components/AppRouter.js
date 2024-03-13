@@ -1,5 +1,5 @@
 import React from 'react'
-import { Routes, Route, BrowserRouter } from "react-router-dom"
+import { Routes, Route, BrowserRouter as Router } from "react-router-dom"
 import Home from '../pages/Home'
 import Contacts from '../pages/Contacts'
 import Certificates from '../pages/Certificates'
@@ -15,14 +15,17 @@ import Links from '../pages/Links'
 import MyVideo from '../pages/MyVideo'
 import VideoSGuru from '../pages/VideoSGuru'
 import VideoSMonahami from '../pages/VideoSMonahami'
-
+import NavBar from './NavBar'
+import ScrollToTop from './ScrollToTop'
 
 
 const AppRouter = () => {
   return (
-    <BrowserRouter >
+    <Router >
+      <ScrollToTop />
+      <NavBar />
       <Routes>
-        <Route exact path='/' element={<Home />} />
+        <Route path='/' element={<Home />} />
 
         <Route path='/education' element={<Education />} />
         <Route path='/certificates' element={<Certificates />} />
@@ -43,7 +46,7 @@ const AppRouter = () => {
         <Route path='/videosmonahami' element={<VideoSMonahami />} />
 
       </Routes>
-    </BrowserRouter>
+    </Router>
   )
 }
 

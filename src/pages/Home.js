@@ -12,10 +12,10 @@ import '../styles/Home.css'
 const Home = () => {
   const navigate = useNavigate()
 
-  const navigateAndReset = (to) => {
-    navigate(to, { replace: true });
-    window.scrollTo(0, 0);
-  };
+  // const navigateAndReset = (to) => {
+  //   navigate(to, { replace: true });
+  //   window.scrollTo(0, 0);
+  // };
 
   return (
     <Container className="flex-container">
@@ -69,12 +69,12 @@ const Home = () => {
         </div>
 
         <div className='home-flex-item'>
-          <Button className='flat-btn' variant='flat' onClick={() => navigateAndReset('/education')}>О себе</Button>
-          <Button className='flat-btn' variant='flat' onClick={() => navigateAndReset('/contacts')}>Контакты</Button>
-          <Button className='flat-btn' variant='flat' onClick={() => navigateAndReset('/schedule')}>Расписание</Button>
-          <Button className='flat-btn' variant='flat' onClick={() => navigateAndReset('/master')}>Традиция</Button>
-          <Button className='flat-btn' variant='flat' onClick={() => navigateAndReset('/myvideo')}>Мои видео</Button>
-          <Button className='flat-btn' variant='flat' onClick={() => navigateAndReset('/videosguru')}>Видео с Гуру</Button>
+          <Button className='flat-btn' variant='flat' onClick={() => navigate('/education')}>О себе</Button>
+          <Button className='flat-btn' variant='flat' onClick={() => navigate('/contacts')}>Контакты</Button>
+          <Button className='flat-btn' variant='flat' onClick={() => navigate('/schedule')}>Расписание</Button>
+          <Button className='flat-btn' variant='flat' onClick={() => navigate('/master')}>Традиция</Button>
+          <Button className='flat-btn' variant='flat' onClick={() => navigate('/myvideo')}>Мои видео</Button>
+          <Button className='flat-btn' variant='flat' onClick={() => navigate('/videosguru')}>Видео с Гуру</Button>
         </div>
 
 
