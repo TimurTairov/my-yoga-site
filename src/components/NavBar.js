@@ -80,6 +80,9 @@ const NavBar = () => {
               <NavDropdown.Item className='nav-dropdown-item' to='/basicrules'>
                 <NavLink to='/basicrules'> Основные положения хатха йоги </NavLink>
               </NavDropdown.Item>
+              <NavDropdown.Item className='nav-dropdown-item' to='/basicrules'>
+                <NavLink to='/nauli'> Наули крийя </NavLink>
+              </NavDropdown.Item>
             </NavDropdown>
 
             <NavDropdown title='Традиция' id='basic-nav-dropdown'>

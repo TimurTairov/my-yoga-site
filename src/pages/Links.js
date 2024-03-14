@@ -11,7 +11,7 @@ const Links = () => {
   return (
     <Container>
       <h1 className='tittle'>Полезные ссылки</h1>
-      <h5 className='text-muted'>
+      <h6 className='text-muted'>
         <Image src={website} className='gif'></Image>
         <a href='https://www.advayta.org/' target='_blank' rel='noreferrer'>www.advayta.org </a>   <br />
         Официальный сайт. Здесь более подробная информация о традиции, Гуру, мероприятиях, обучении,
@@ -73,7 +73,7 @@ const Links = () => {
         <a href='ok.ru/advayta.siddhov' target='_blank' rel='noreferrer'>ОК Адвайта сиддхов </a>   <br />
         Официальная страница ОК Адвайта сиддхов. <br />
         <br />
-      </h5>
+      </h6>
 
     </Container>
   )

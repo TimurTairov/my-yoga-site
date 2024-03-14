@@ -12,7 +12,7 @@ const Pribejishe = () => {
       <Image src={drevo} className='slider-parampara'></Image>
       <Image src={severnayaLiniya} className='slider-parampara'></Image>
       <Image src={ujnayaLiniya} className='slider-parampara'></Image>
-      <h5 className='text-muted'>
+      <h6 className='text-muted'>
         <br />
         Что такое древо Прибежища? Древо Прибежища, или линия передачи (парампара),
         – это группа святых учителей, с которыми мы устанавливаем связь, когда вступаем в учение.
@@ -47,11 +47,11 @@ const Pribejishe = () => {
         250 тысяч учений лайя-йоги! Мы практикуем от пяти до десяти направлений. А есть тексты, которые утверждают, что существует миллион
         учений лайя-йоги. <br />
         <br />
-      </h5>
+      </h6>
 
       <Image src={triada} className='giphy' />
 
-      <h5 className='text-muted'>
+      <h6 className='text-muted'>
         <br />
         Наконец, над этими двумя сферами существует так называемый «сонм великих мудрецов», или саптариши. Семь риши обычно связываются с
         семью звездами Большой Медведицы, то есть каждый из них является покровителем или божеством одной из звезд Большой Медведицы.
@@ -86,7 +86,7 @@ const Pribejishe = () => {
         <br />
         Отрывок из лекции Гуру Свами Вишнудевананда Гири
         <br />    <br />
-      </h5>
+      </h6>
 
 
     </Container>

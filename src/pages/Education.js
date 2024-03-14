@@ -9,7 +9,7 @@ const Education = () => {
   return (
     <Container>
       <h1 className='tittle'>Образование</h1>
-      <h4 className='text-muted'>
+      <h5 className='text-muted'>
         <Image src={sun} className='medium-gif' />
         <b>Основное образование</b>  <br />
         <b>1.</b> ВВИА им. проф. Н.Е.Жуковского, АСУ (2003-2008 гг). <br />
@@ -35,7 +35,7 @@ const Education = () => {
         <b>Ps:</b> в сентябре 2023 года получил дикшу и духовное имя - Тирхадева (посвящение) у своего коренного <a href='/master'>Гуру</a>.<br />
         До этого носил имя Тимур Брахмачари.
         <br /> <br />
-      </h4>
+      </h5>
 
       <Image src={krishna} className='giphy' />
 

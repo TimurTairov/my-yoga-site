@@ -17,6 +17,7 @@ import VideoSGuru from '../pages/VideoSGuru'
 import VideoSMonahami from '../pages/VideoSMonahami'
 import NavBar from './NavBar'
 import ScrollToTop from './ScrollToTop'
+import Nauli from '../pages/Nauli'
 
 
 const AppRouter = () => {
@@ -35,6 +36,7 @@ const AppRouter = () => {
         <Route path='/schedule' element={<Schedule />} />
         <Route path='/feedbacks' element={<Feedbacks />} />
         <Route path='/basicrules' element={<BasicRules />} />
+        <Route path='/nauli' element={<Nauli />} />
 
         <Route path='/master' element={<Master />} />
         <Route path='/drevo-pribezhishcha' element={<Pribejishe />} />

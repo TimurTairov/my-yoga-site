@@ -7,7 +7,7 @@ const Metody = () => {
     <Container>
       <h1 className='tittle'>Методы Учения</h1>
       <Image src={metody} className='slider-parampara'></Image>
-      <h5 className='text-muted'>
+      <h6 className='text-muted'>
         Учение Лайя-йоги подобно большому, красиво цветущему дереву,
         у которого есть и корни, и ствол, и ветви, и листья, и цветы, и плоды.
         Все методы Учения расположены на своем месте, они прекрасно сочетаются и
@@ -46,12 +46,12 @@ const Metody = () => {
         поймем иерархию методов в многообразии, мы можем не понять, какие же акценты делать и на чем,
         каково место каждого метода в Учении.<br />
         <br />
-      </h5>
+      </h6>
       <Image
         src='https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMXdzZDB6dGVoNGY1MGx6b3YzcWZwY2QyZ3dsOTRrM2ltOTEzY3gwNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/6Yz1lscdFlHt6/giphy.gif'
         className='gifka'
       />
-      <h5 className='text-muted'>
+      <h6 className='text-muted'>
         <br />
         Но если четко понимать, что корнем является пребывание в естественном состоянии, то понятно, что сущность
         Учения неопределима, и заключается в пребывании в осознанности. Если понять, что есть развитие созерцательных
@@ -100,7 +100,7 @@ const Metody = () => {
         своей изначальной природы, и даже когда мы слышим о ней, не так-то просто в нее вернуться, мы от нее очень далеко,
         очень серьезно ушли. Наша изначальная природа Сахаджья, Всевышний Источник, Бог, Брахман, Абсолют – это идентичные
         понятия. Все, что нам необходимо, это учиться возвращаться к этой природе.<br /><br />
-      </h5>
+      </h6>
       <Image
         src='https://media.giphy.com/media/rjwOfLzQLNA5i/giphy.gif'
         className='gifka'

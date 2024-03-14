@@ -9,7 +9,7 @@ const BasicRules = () => {
     <Container>
       <h1 className='tittle'>Хатха йога. Основные положения.</h1>
       <Image src={kovrik} className='gifka' />
-      <h5 className='text-muted'>
+      <h6 className='text-muted'>
         <br />
         Хатха йога неотъемлемая часть Кундалини и Раджа йоги. Это фундамент и основа более утонченных практик. Многие сиддхи и риши практиковали этот вид йоги.<br />
         <br />
@@ -34,14 +34,14 @@ const BasicRules = () => {
         - непривязанность к результатам;<br />
         - регулярность занятий.<br />
         <br />
-      </h5>
+      </h6>
 
       <Image
         src='https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdjdpcTR6ZGp1cWJ2czB6dWJwc2VjY2d2cnkxeXg1dHJ3MmhpcXh4bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/CpBLpHZn2d4MReAPNB/giphy-downsized-large.gif'
         className='giphy'
       />
 
-      <h5 className='text-muted'>
+      <h6 className='text-muted'>
         <br />
         Метод Энергии предполагает мягкость и расслабление в асанах.
         Точно также, как младенцу необходима ласка и забота матери, новоиспеченному йогину необходим метод Энергии.
@@ -73,14 +73,14 @@ const BasicRules = () => {
         Практикуя методом Энергии, йогин фактически выполняет поклонение Богине МахаШакти, Богине Кундалини.
         Практикуя методом Сознания, йогин выполняет поклонение Шиве.<br />
         <br />
-      </h5>
+      </h6>
 
       <Image
         src='https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDR4N2cwM2l6ZjRrbmRkbnZkcmJ0enA5eTZsNW84ZWl3ZzQ3MnlicyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/pqhICBmbiltrdWPjjr/giphy-downsized-large.gif'
         className='giphy'
       />
 
-      <h5 className='text-muted'>
+      <h6 className='text-muted'>
         <br />
         Гармоничное выполнение асан означает правильное сочетание этих двух методов йоги, метода Энергии и метода Сознания.
         Причем, правильность пропорции этих двух методов йогин должен нащупать самостоятельно практическим путем на основании своей подготовки, физической формы и внутреннего состояния.<br />
@@ -131,7 +131,7 @@ const BasicRules = () => {
         - осознанность.<br />
         <br />
         Тиртхадева
-      </h5>
+      </h6>
 
       <Image src={suryaNamaskar} className='gifka' />
 
