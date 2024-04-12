@@ -7,7 +7,7 @@ import '../styles/Gif.css'
 const BasicRules = () => {
   return (
     <Container>
-      <h1 className='tittle'>Хатха йога. Основные положения.</h1>
+      <h1 className='title'>Хатха йога. Основные положения.</h1>
       <Image src={kovrik} className='gifka' />
       <h6 className='text-muted'>
         <br />

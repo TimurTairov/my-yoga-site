@@ -1,11 +1,12 @@
 import React from 'react'
 import { Container, Accordion, Image } from 'react-bootstrap'
 import '../styles/Gif.css'
+import '../styles/Slider.css'
 
 const VideoSGuru = () => {
   return (
     <Container>
-      <h1 className='tittle'>Видео с Гуру</h1>
+      <h1 className='title'>Видео с Гуру</h1>
 
       <Accordion >
         <Accordion.Item eventKey="0">

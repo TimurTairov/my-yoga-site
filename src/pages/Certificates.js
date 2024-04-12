@@ -19,7 +19,7 @@ import '../styles/Slider.css'
 const Certificates = () => {
   return (
     <Container className='main-container'>
-      <h1 className='tittle'>Сертификаты и памятные листы</h1>
+      <h1 className='title'>Сертификаты и памятные листы</h1>
       <Carousel slide fade data-bs-theme="dark">
         <Carousel.Item className='d-flex justify-content-center'>
           <img

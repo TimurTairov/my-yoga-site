@@ -11,7 +11,7 @@ import '../styles/Links.css'
 const Links = () => {
   return (
     <Container>
-      <h1 className='tittle'>Полезные ссылки</h1>
+      <h1 className='title'>Полезные ссылки</h1>
       <h6 className='text-muted'>
         <Image src={website} className='gif'></Image>
         <a href='https://www.advayta.org/' target='_blank' rel='noreferrer' className='links'>www.advayta.org</a>   <br />

@@ -26,7 +26,7 @@ const MyPhoto = () => {
 
   return (
     <Container className='main-container'>
-      <h1 className="tittle">Мои фото</h1>
+      <h1 className="title">Мои фото</h1>
 
       <Carousel slide fade touch data-bs-theme="dark"
       // nextIcon={<span aria-hidden="true" className="carousel-control-next-icon changed" />}

@@ -8,7 +8,7 @@ import '../styles/Gif.css'
 const Schedule = () => {
   return (
     <Container>
-      <h1 className='tittle'>Расписание занятий</h1>
+      <h1 className='title'>Расписание занятий</h1>
       <h3 className='text-muted'>1. <a href='https://fitness-cccp.ru/clubs/mihajlovskij/' target='_blank' rel='noreferrer' >Фитнес клуб СССР Волгоградский проспект </a></h3>
       <h5 className=' text-muted'>
         <Image src={info} className='small-gif' />

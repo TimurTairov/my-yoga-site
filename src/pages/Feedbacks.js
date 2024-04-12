@@ -27,7 +27,7 @@ import '../styles/Slider.css'
 const Feedbacks = () => {
   return (
     <Container>
-      <h1 className="tittle">Отзывы</h1>
+      <h1 className="title">Отзывы</h1>
       <Accordion >
         <Accordion.Item eventKey="0">
           <Accordion.Header>Отзыв Натальи</Accordion.Header>

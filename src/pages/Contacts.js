@@ -14,7 +14,7 @@ import '../styles/Gif.css'
 const Contacts = () => {
   return (
     <Container>
-      <h1 className='tittle'>Контакты</h1>
+      <h1 className='title'>Контакты</h1>
       <ul className='flex-container-contacts'>
         <li className='flex-item'>
           <div className='contacts-container'>

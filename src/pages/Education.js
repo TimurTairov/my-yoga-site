@@ -9,7 +9,7 @@ const Education = () => {
 
   return (
     <Container>
-      <h1 className='tittle'>Образование</h1>
+      <h1 className='title'>Образование</h1>
       <h5 className='text-muted'>
         <Image src={sun} className='medium-gif' />
         <b>Основное образование</b>  <br />

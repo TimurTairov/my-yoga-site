@@ -13,7 +13,7 @@ import '../styles/Slider.css'
 const Pribejishe = () => {
   return (
     <Container>
-      <h1 className='tittle'>Древо Прибежища</h1>
+      <h1 className='title'>Древо Прибежища</h1>
       <Image src={drevo} className='slider-parampara'></Image>
       <Image src={severnayaLiniya} className='slider-parampara'></Image>
       <Image src={ujnayaLiniya} className='slider-parampara'></Image>

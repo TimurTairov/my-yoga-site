@@ -5,7 +5,7 @@ import warning from '../img/icons8-warning-96.png'
 const Nauli = () => {
   return (
     <Container>
-      <h1 className='tittle'>Наули крийя</h1>
+      <h1 className='title'>Наули крийя</h1>
       <iframe width="471" height="838" src="https://www.youtube.com/embed/vJ0rJLhhwGo" title="Наули крия" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
 
       <h6 className='text-muted'>
@@ -28,7 +28,7 @@ const Nauli = () => {
 
       <iframe width="560" height="315" src="https://www.youtube.com/embed/b8Vuv6ug2KM?si=D0BpZNSnaCBrUCpw" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
 
-      <h5 className='tittle'> Алгоритм освоения наули </h5>
+      <h5 className='title'> Алгоритм освоения наули </h5>
       <h6 className='text-muted'>
         <br />
         <b>Этап 1.</b> Уддияна Бандха (пупочный замок) живот втягивается в себя и удерживается на внешней задержке дыхания. Для начала, 2-3 подхода по 10-15 секунд будет достаточно.

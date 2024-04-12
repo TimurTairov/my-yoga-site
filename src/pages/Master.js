@@ -7,7 +7,7 @@ import img2 from '../images/Guru/002.jpg'
 const Master = () => {
   return (
     <Container>
-      <h1 className='tittle'>Шри Гуру Свами Вишнудевананда Гири</h1>
+      <h1 className='title'>Шри Гуру Свами Вишнудевананда Гири</h1>
 
       <Image src={img1} className='slider-guru mt-4'></Image>
       <h6 className='text-muted my-4'>
