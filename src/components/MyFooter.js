@@ -1,4 +1,4 @@
-import { Container, Image, Navbar } from "react-bootstrap"
+import { Container, Image } from "react-bootstrap"
 import '../styles/MyFooter.css'
 import vk from '../img/VK.png'
 import tg from '../img/tg.png'

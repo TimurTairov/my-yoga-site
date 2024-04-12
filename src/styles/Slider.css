@@ -35,10 +35,18 @@
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
+
 .slider-parampara {
   /* display: block; */
   max-width: 33%;
   max-height: auto;
+  padding: 0.5rem;
+}
+
+.slider-parampara2 {
+  /* display: block; */
+  max-width: auto;
+  max-height: 500px;
   padding: 1rem;
 }
 

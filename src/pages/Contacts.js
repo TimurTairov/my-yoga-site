@@ -1,6 +1,4 @@
-import React from 'react'
 import { Container, Image } from 'react-bootstrap'
-
 import location from '../img/Location2.png'
 import whatsapp from '../img/whatsapp.png'
 import vk from '../img/VK.png'
@@ -11,6 +9,7 @@ import youtube from '../img/youtube.png'
 import skype from '../img/icons8-skype-96.png'
 import shivaLingam from '../gif/mahadev-adoration-to-shiva.gif'
 import '../styles/Contacts.css'
+import '../styles/Gif.css'
 
 const Contacts = () => {
   return (
@@ -31,7 +30,8 @@ const Contacts = () => {
             <h3 className='text-muted'> WhatsApp</h3>
           </div>
           <p className='text-muted'>
-            <a href='tel:+79672067710'>+7 (967) 206-77-10</a>
+            <a href="whatsapp://send?phone=79672067710" target='_blank'
+              rel='noreferrer' className='contactsLink'>+7 (967) 206-77-10</a>
           </p>
         </li>
 
@@ -44,6 +44,7 @@ const Contacts = () => {
             <a href='https://t.me/tirthadeva'
               target='_blank'
               rel='noreferrer'
+              className='contactsLink'
             >
               @tirthadeva
             </a>
@@ -59,6 +60,7 @@ const Contacts = () => {
             <a href='https://vk.com/tirthadeva'
               target='_blank'
               rel='noreferrer'
+              className='contactsLink'
             >
               @tirthadeva
             </a>
@@ -74,6 +76,7 @@ const Contacts = () => {
             <a href='https://www.instagram.com/timur_brahmachari/'
               target='_blank'
               rel='noreferrer'
+              className='contactsLink'
             >
               @timur_brahmachari
             </a>
@@ -89,6 +92,7 @@ const Contacts = () => {
             <a href='mailto:tairovtk@gmail.com'
               target='_blank'
               rel='noreferrer'
+              className='contactsLink'
             >tairovtk@gmail.com</a>
           </p>
         </li>
@@ -102,6 +106,7 @@ const Contacts = () => {
             <a href='https://www.youtube.com/@tirthadeva_yoga'
               target="_blank"
               rel="noreferrer"
+              className='contactsLink'
             >
               @tirthadeva_yoga
             </a>

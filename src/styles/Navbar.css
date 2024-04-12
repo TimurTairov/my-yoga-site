@@ -22,6 +22,12 @@
 .dropdown-menu {
   --bs-dropdown-border-color: darkcyan;
 }
+.navbarLogo {
+  width: 50px;
+}
+.navbarHome {
+  width: 40px;
+}
 
 #basic-nav-dropdown:hover,
 .navlink:hover {
@@ -38,7 +44,12 @@
   border-bottom: 2px solid darkcyan;
   width: 100%;
 }
+
 @media ((max-width: 991px)) {
+  .logo {
+    margin-top: 10px;
+  }
+
   #basic-nav-dropdown:hover,
   .navlink:hover {
     border-bottom: 0px solid darkcyan;

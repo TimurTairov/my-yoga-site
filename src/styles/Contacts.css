@@ -1,6 +1,7 @@
 li {
   list-style: none;
 }
+
 .contacts-container {
   display: flex;
   flex-direction: row;
@@ -23,4 +24,9 @@ li {
   width: 255px;
   border: 0.5px solid lightgrey;
   border-radius: 10px;
+}
+
+.contactsLink:hover {
+  color: blueviolet;
+  text-decoration: underline;
 }

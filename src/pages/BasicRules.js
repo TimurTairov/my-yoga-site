@@ -2,7 +2,7 @@ import React from 'react'
 import { Container, Image } from 'react-bootstrap'
 import suryaNamaskar from '../gif/suryannamaskar.gif'
 import kovrik from '../gif/file1.gif'
-
+import '../styles/Gif.css'
 
 const BasicRules = () => {
   return (

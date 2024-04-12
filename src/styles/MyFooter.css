@@ -37,6 +37,13 @@
   color: #fff;
   text-decoration: underline;
 }
+
+.small-gif {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
 .icon {
   width: 40px;
   height: 40px;

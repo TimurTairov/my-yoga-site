@@ -1,5 +1,3 @@
-import React from 'react'
-
 import { Container, Carousel } from 'react-bootstrap'
 import img1 from '../images/MyPhoto/001.jpg'
 import img2 from '../images/MyPhoto/002.jpg'
@@ -21,8 +19,6 @@ import img17 from '../images/MyPhoto/017.jpg'
 import img18 from '../images/MyPhoto/018.jpg'
 import img19 from '../images/MyPhoto/019.jpg'
 import img20 from '../images/MyPhoto/020.jpg'
-
-
 
 import '../styles/Slider.css'
 

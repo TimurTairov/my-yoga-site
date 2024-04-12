@@ -3,7 +3,12 @@ import { Container, Image } from 'react-bootstrap'
 import drevo from '../images/Drevo-pribezhishcha/drevopribezhishcha.jpg'
 import severnayaLiniya from '../images/Drevo-pribezhishcha/severnayaliniya.jpg'
 import ujnayaLiniya from '../images/Drevo-pribezhishcha/ujnayaliniya.jpg'
-import triada from '../images/triada.jpg'
+import triada from '../images/Drevo-pribezhishcha/triada.jpg'
+import dattatreya from '../images/Drevo-pribezhishcha/Dattatreya.jpg'
+import guruji from '../images/Drevo-pribezhishcha/Guruji.jpg'
+import brahmananda from '../images/Drevo-pribezhishcha/Brahmananda.jpg'
+
+import '../styles/Slider.css'
 
 const Pribejishe = () => {
   return (
@@ -88,6 +93,9 @@ const Pribejishe = () => {
         <br />    <br />
       </h6>
 
+      <Image src={dattatreya} className='slider-parampara2'></Image>
+      <Image src={guruji} className='slider-parampara2'></Image>
+      <Image src={brahmananda} className='slider-parampara2'></Image>
 
     </Container>
   )

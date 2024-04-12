@@ -1,12 +1,11 @@
 import React from 'react'
-import { useNavigate } from 'react-router-dom'
-import { Container, Image, Button } from 'react-bootstrap'
+import { Container, Image } from 'react-bootstrap'
 import info from '../gif/info.gif'
 import whatsapp from '../img/icons8-whatsapp 2.gif'
 import '../styles/Schedule.css'
+import '../styles/Gif.css'
 
 const Schedule = () => {
-  const navigate = useNavigate()
   return (
     <Container>
       <h1 className='tittle'>Расписание занятий</h1>
@@ -54,8 +53,8 @@ const Schedule = () => {
         Среда 20:00 Хатха йога (90 минут) <br />
       </h5>
 
-      <h3 className='text-muted'>5. Йога онлайн <a href="tel:+79672067710" className='btn limegreen'>
-        <Image src={whatsapp} className='small-gif ' ></Image>
+      <h3 className='text-muted'>5. Йога онлайн <a href="whatsapp://send?phone=79672067710" className='btn limegreen'>
+        <Image src={whatsapp} className='small-gif '></Image>
         записаться</a>
       </h3>
       <h5 className='text-muted'>
@@ -67,9 +66,6 @@ const Schedule = () => {
         Воскресение 10:00 Кундалини йога (90 минут) <br />
         <br />
       </h5>
-
-      {/* <Button className='flat-btn' variant='flat' onClick={() => navigate('/feedbacks')}>Отзывы</Button>
-      <Button className='flat-btn' variant='flat' onClick={() => navigate('/basicrules')}>Положения йоги</Button> */}
 
       <Image src='https://media.giphy.com/media/dzJ0WT8bOGPFU0lTwz/giphy.gif' className='giphy' />
     </Container>

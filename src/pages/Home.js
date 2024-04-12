@@ -69,14 +69,13 @@ const Home = () => {
         </div>
 
         <div className='home-flex-item'>
-          <Button className='flat-btn' variant='flat' onClick={() => navigate('/education')}>О себе</Button>
-          <Button className='flat-btn' variant='flat' onClick={() => navigate('/contacts')}>Контакты</Button>
-          <Button className='flat-btn' variant='flat' onClick={() => navigate('/schedule')}>Расписание</Button>
-          <Button className='flat-btn' variant='flat' onClick={() => navigate('/master')}>Традиция</Button>
-          <Button className='flat-btn' variant='flat' onClick={() => navigate('/myvideo')}>Мои видео</Button>
-          <Button className='flat-btn' variant='flat' onClick={() => navigate('/videosguru')}>Видео с Гуру</Button>
+          <Button className='flat-btn' variant='flat' onClick={() => navigate('education')}>О себе</Button>
+          <Button className='flat-btn' variant='flat' onClick={() => navigate('contacts')}>Контакты</Button>
+          <Button className='flat-btn' variant='flat' onClick={() => navigate('schedule')}>Расписание</Button>
+          <Button className='flat-btn' variant='flat' onClick={() => navigate('master')}>Традиция</Button>
+          <Button className='flat-btn' variant='flat' onClick={() => navigate('myvideo')}>Мои видео</Button>
+          <Button className='flat-btn' variant='flat' onClick={() => navigate('videosguru')}>Видео с Гуру</Button>
         </div>
-
 
 
         <Image src={trishula} className='trishula' />

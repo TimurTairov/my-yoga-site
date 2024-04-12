@@ -1,5 +1,6 @@
 import React from 'react'
 import { Container, Accordion, Image } from 'react-bootstrap'
+import '../styles/Gif.css'
 
 const VideoSMonahami = () => {
   return (

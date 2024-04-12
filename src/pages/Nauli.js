@@ -1,5 +1,6 @@
 import React from 'react'
-import { Container } from 'react-bootstrap'
+import { Container, Image } from 'react-bootstrap'
+import warning from '../img/icons8-warning-96.png'
 
 const Nauli = () => {
   return (
@@ -28,7 +29,7 @@ const Nauli = () => {
       <iframe width="560" height="315" src="https://www.youtube.com/embed/b8Vuv6ug2KM?si=D0BpZNSnaCBrUCpw" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
 
       <h5 className='tittle'> Алгоритм освоения наули </h5>
-      <h6>
+      <h6 className='text-muted'>
         <br />
         <b>Этап 1.</b> Уддияна Бандха (пупочный замок) живот втягивается в себя и удерживается на внешней задержке дыхания. Для начала, 2-3 подхода по 10-15 секунд будет достаточно.
         <br /><br />
@@ -40,11 +41,18 @@ const Nauli = () => {
         <br /><br />
         <b>Этап 5.</b> Вама Наули (волна справа налево) тоже самое в другую сторону. Последовательность имеет значение, поэтому желательно ее соблюдение.
         <br /><br />
-        Наули осваивается только при регулярной практике - не реже 4-5 раз в неделю за 4-6 месяцев.
+
+      </h6>
+
+
+      <h6 className='text-muted'>
+        <Image src={warning} alt='warning' width={20} />
+        <span> </span>Наули осваивается только при регулярной практике - не реже 4-5 раз в неделю за 4-6 месяцев.
         Наули практикуется только! на пустой желудок (4-5 часов после еды), а еще лучше натощак.
         Помните про противопоказания к практике: болезни сердца, гипертонии, грыжи, язвы желудка и двенадцатиперстной кишки. Также не рекомендуется беременным, девушкам в период месячных, после операций на брюшную полость.
         <br /><br />
       </h6>
+
 
       <iframe width="471" height="838" src="https://www.youtube.com/embed/j4bUswIN9ws" title="Наглядная разница между агнисара крией и мадхьяма наули" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
 

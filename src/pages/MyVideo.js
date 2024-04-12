@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container, Accordion, Image } from 'react-bootstrap'
-
+import '../styles/Gif.css'
 
 const MyVideo = () => {
   return (
@@ -93,6 +93,7 @@ const MyVideo = () => {
           </Accordion.Body>
 
         </Accordion.Item>
+
         <Accordion.Item eventKey="2">
           <Accordion.Header>Нидра йога</Accordion.Header>
           <Accordion.Body>
@@ -106,7 +107,6 @@ const MyVideo = () => {
 
           </Accordion.Body>
         </Accordion.Item>
-
 
         <Accordion.Item eventKey="3">
           <Accordion.Header>Лекции и выступления</Accordion.Header>
@@ -152,6 +152,7 @@ const MyVideo = () => {
             <iframe width="560" height="315" src="https://www.youtube.com/embed/ZA7_xyAIo1E?si=CKXr-ZTlxjPDHz6-" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
           </Accordion.Body>
         </Accordion.Item>
+
       </Accordion>
       <br />
 

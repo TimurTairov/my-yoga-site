@@ -1,12 +1,14 @@
 import React from 'react'
-import { Button, Carousel, Container, Image } from 'react-bootstrap'
+import { Container, Image } from 'react-bootstrap'
 import metody from '../images/Metody/metody.jpg'
+import '../styles/Gif.css'
+
 
 const Metody = () => {
   return (
     <Container>
       <h1 className='tittle'>Методы Учения</h1>
-      <Image src={metody} className='slider-parampara'></Image>
+      <Image src={metody} height={'500px'} width='auto' className='mt-2 mb-4'></Image>
       <h6 className='text-muted'>
         Учение Лайя-йоги подобно большому, красиво цветущему дереву,
         у которого есть и корни, и ствол, и ветви, и листья, и цветы, и плоды.
@@ -105,7 +107,7 @@ const Metody = () => {
         src='https://media.giphy.com/media/rjwOfLzQLNA5i/giphy.gif'
         className='gifka'
       />
-    </Container>
+    </Container >
   )
 }
 
