@@ -3,7 +3,7 @@ import { Container, Image } from 'react-bootstrap'
 import sun from '../gif/sun.gif'
 import krishna from '../gif/Krisna.gif'
 import '../styles/Gif.css'
-import Menu from '../components/Menu'
+//import Menu from '../components/Menu'
 
 const Education = () => {
 

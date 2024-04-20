@@ -113,7 +113,7 @@ const VideoSGuru = () => {
 
             <br /> <br />
             <h6>Сатсанг "Отличие Освобождения от Просветления"</h6>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/P-d5nHW_--0?si=oebglMltJ_f-kR9q" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullScreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/P-d5nHW_--0?si=oebglMltJ_f-kR9q" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
 
             <br /> <br />
             <h6>Сатсанг "Воля Бога и личная воля"</h6>

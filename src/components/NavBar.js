@@ -1,6 +1,6 @@
 import React from 'react'
 import { Navbar, Container, Nav, NavDropdown } from 'react-bootstrap'
-import { NavLink, Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import '../styles/Navbar.css'
 import logo from '../img/logo.svg'
 
@@ -16,9 +16,9 @@ const NavBar = () => {
         <Navbar.Collapse id='responsive-navbar-nav'>
 
           <Nav className='me-auto top-menu logo'>
-            <Link to='.' end>
+            <NavLink to='.' end>
               <img src={logo} className='navbarLogo' alt='home' />
-            </Link>
+            </NavLink>
           </Nav>
 
           <Nav className='top-menu my-nav'>
