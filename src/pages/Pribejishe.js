@@ -7,7 +7,6 @@ import triada from '../images/Drevo-pribezhishcha/triada.jpg'
 import dattatreya from '../images/Drevo-pribezhishcha/Dattatreya.jpg'
 import guruji from '../images/Drevo-pribezhishcha/Guruji.jpg'
 import brahmananda from '../images/Drevo-pribezhishcha/Brahmananda.jpg'
-
 import '../styles/Slider.css'
 
 const Pribejishe = () => {

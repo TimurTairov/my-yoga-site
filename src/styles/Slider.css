@@ -55,6 +55,10 @@
   height: 20px;
   border-radius: 50%;
 } */
+.giphy {
+  width: 100%;
+  height: auto;
+}
 
 .carousel .carousel-control-next-icon.changed:hover {
   border: 2px solid darkcyan;
@@ -65,7 +69,15 @@
   border-radius: 10px;
 }
 
-@media ((max-width: 800px)) {
+@media ((max-width: 1399px)) {
+  .slider-parampara2 {
+    max-width: auto;
+    max-height: 380px;
+    padding: 0.5rem;
+  }
+}
+
+@media ((max-width: 991px)) {
   .slider-img {
     display: block;
     max-width: 620px;
@@ -74,6 +86,19 @@
   .certificate-slider {
     width: 600px;
     height: 800px;
+  }
+  .slider-parampara2 {
+    max-width: auto;
+    max-height: 280px;
+    padding: 0.5rem;
+  }
+}
+
+@media ((max-width: 767px)) {
+  .slider-parampara2 {
+    max-width: auto;
+    max-height: 200px;
+    padding: 0.5rem;
   }
 }
 
@@ -95,6 +120,11 @@
     width: 350px;
     height: 180px;
   }
+  .slider-parampara2 {
+    max-width: auto;
+    max-height: 150px;
+    padding: 0.5rem;
+  }
 }
 
 @media ((max-width: 430px)) {
@@ -114,6 +144,11 @@
   iframe {
     width: 300px;
     height: 150px;
+  }
+  .slider-parampara2 {
+    max-width: auto;
+    max-height: 130px;
+    padding: 0.5rem;
   }
 }
 
@@ -135,6 +170,11 @@
     width: 270px;
     height: 160px;
   }
+  .slider-parampara2 {
+    max-width: auto;
+    max-height: 110px;
+    padding: 0.5rem;
+  }
 }
 
 @media ((max-width: 320px)) {
@@ -155,6 +195,11 @@
     width: 250px;
     height: 150px;
   }
+  .slider-parampara2 {
+    max-width: auto;
+    max-height: 100px;
+    padding: 0.5rem;
+  }
 }
 
 @media ((max-width: 280px)) {
@@ -166,5 +211,10 @@
   iframe {
     width: 220px;
     height: 120px;
+  }
+  .slider-parampara2 {
+    max-width: auto;
+    max-height: 90px;
+    padding: 0.5rem;
   }
 }

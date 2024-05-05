@@ -8,7 +8,7 @@ const Metody = () => {
   return (
     <Container>
       <h1 className='title'>Методы Учения</h1>
-      <Image src={metody} height={'500px'} width='auto' className='mt-2 mb-4'></Image>
+      <Image src={metody} width='auto' className='giphy mt-2 mb-4'></Image>
       <h6 className='text-muted'>
         Учение Лайя-йоги подобно большому, красиво цветущему дереву,
         у которого есть и корни, и ствол, и ветви, и листья, и цветы, и плоды.

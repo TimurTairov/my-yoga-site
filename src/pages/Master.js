@@ -2,7 +2,7 @@ import React from 'react'
 import { Container, Image } from 'react-bootstrap'
 import img1 from '../images/Guru/001.jpg'
 import img2 from '../images/Guru/002.jpg'
-
+import '../styles/Slider.css'
 
 const Master = () => {
   return (
