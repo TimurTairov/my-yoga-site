@@ -1,0 +1,30 @@
+.video-container {
+  margin: 40px 200px;
+  padding: 10px;
+}
+
+.video-title {
+  padding-bottom: 1px;
+}
+
+@media ((max-width: 1399px)) {
+  .video-container {
+    margin: 30px 150px;
+  }
+}
+@media ((max-width: 1199px)) {
+  .video-container {
+    margin: 20px 100px;
+  }
+}
+@media ((max-width: 999px)) {
+  .video-container {
+    margin: 15px 50px;
+  }
+}
+
+@media ((max-width: 767px)) {
+  .video-container {
+    margin: 10px 0px;
+  }
+}
