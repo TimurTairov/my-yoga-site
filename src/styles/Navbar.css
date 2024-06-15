@@ -1,6 +1,7 @@
 .my-navbar .my-nav,
 .my-navbar .navlink,
 .my-navbar .navbar-button,
+.my-navbar .text-logo,
 .navlink a {
   color: darkcyan;
   /* text-transform: uppercase; */
@@ -22,11 +23,17 @@
 .dropdown-menu {
   --bs-dropdown-border-color: darkcyan;
 }
-.navbarLogo {
+.img-logo {
   width: 50px;
+  margin-right: 10px;
 }
 .navbarHome {
   width: 40px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
 }
 
 #basic-nav-dropdown:hover,

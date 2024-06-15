@@ -1,23 +1,26 @@
-import { Fragment } from 'react'
 import ReactPlayer from 'react-player/youtube'
 import playing from '../img/youtube2.png'
+import '../styles/Video.css'
+
+const YoutubePlayer = (props) => {
 
 
-const YoutubePlayer = (videoHub) => {
   return (
     <div>
-      {videoHub.map(video => (
-        <Fragment key={video.url}>
+      {props.videoHub.map(video => (
+        <div key={video.url} className='video-container'>
+          <h6 className='video-title'>{video.title}</h6>
           <ReactPlayer
+            className='react-player'
             light
             url={video.url}
             playIcon={<img src={playing} alt='playing' width='70' />}
             controls
             playing
+            width='100%'
+            height='40vh'
           />
-          <h6>{video.title}</h6>
-          <br />
-        </Fragment>
+        </div>
       ))}
     </div>
   )

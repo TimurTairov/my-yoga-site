@@ -17,7 +17,10 @@ const NavBar = () => {
 
           <Nav className='me-auto top-menu logo'>
             <NavLink to='.' end>
-              <img src={logo} className='navbarLogo' alt='home' />
+              <div className='logo-container'>
+                <img src={logo} className='img-logo' alt='home' />
+                <h3 className='text-logo'>Тиртхадева</h3>
+              </div>
             </NavLink>
           </Nav>
 
