@@ -5,6 +5,7 @@ li {
 .contacts-container {
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
 .flex-container-contacts {
@@ -29,4 +30,9 @@ li {
 .contactsLink:hover {
   color: blueviolet;
   text-decoration: underline;
+}
+
+.contacts-img {
+  max-width: 40px;
+  max-height: 40px;
 }

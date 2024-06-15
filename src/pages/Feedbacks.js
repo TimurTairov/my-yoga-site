@@ -1,5 +1,6 @@
 import React from 'react'
-import { Container, Carousel, Accordion } from 'react-bootstrap'
+import { Container, Accordion } from 'react-bootstrap'
+import MyCarousel from '../helpers/MyCarousel'
 import img1 from '../images/Feedbacks/001.jpg'
 import img2 from '../images/Feedbacks/002.jpg'
 import img3 from '../images/Feedbacks/003.jpg'
@@ -25,6 +26,7 @@ import img21 from '../images/Feedbacks/021.jpg'
 import '../styles/Slider.css'
 
 const Feedbacks = () => {
+  const fotos = [img1, img2, img3, img4, img4, img5, img6, img7, img8, img9, img10, img11, img12, img13, img14, img15, img16, img17, img18, img19, img20, img21]
   return (
     <Container>
       <h1 className="title">Отзывы</h1>
@@ -94,9 +96,9 @@ const Feedbacks = () => {
 
       </Accordion>
 
-
       <h4 className='d-flex justify-content-center m-4 text-muted'>Отзывы на йогу онлайн</h4>
-      <Carousel slide fade data-bs-theme="dark">
+
+      {/* <Carousel slide fade data-bs-theme="dark">
 
         <Carousel.Item className='d-flex justify-content-center'>
           <img
@@ -266,8 +268,8 @@ const Feedbacks = () => {
           />
         </Carousel.Item>
 
-      </Carousel>
-
+      </Carousel> */}
+      <MyCarousel fotos={fotos} />
 
     </Container>
   )

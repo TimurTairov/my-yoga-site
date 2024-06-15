@@ -1,8 +1,5 @@
 import React from 'react'
 import { Container, Image } from 'react-bootstrap'
-import drevo from '../images/Drevo-pribezhishcha/drevopribezhishcha.jpg'
-import severnayaLiniya from '../images/Drevo-pribezhishcha/severnayaliniya.jpg'
-import ujnayaLiniya from '../images/Drevo-pribezhishcha/ujnayaliniya.jpg'
 import triada from '../images/Drevo-pribezhishcha/triada.jpg'
 import dattatreya from '../images/Drevo-pribezhishcha/Dattatreya.jpg'
 import guruji from '../images/Drevo-pribezhishcha/Guruji.jpg'
@@ -13,9 +10,7 @@ const Pribejishe = () => {
   return (
     <Container>
       <h1 className='title'>Древо Прибежища</h1>
-      <Image src={drevo} className='slider-parampara'></Image>
-      <Image src={severnayaLiniya} className='slider-parampara'></Image>
-      <Image src={ujnayaLiniya} className='slider-parampara'></Image>
+
       <h6 className='text-muted'>
         <br />
         Что такое древо Прибежища? Древо Прибежища, или линия передачи (парампара),

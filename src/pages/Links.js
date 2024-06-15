@@ -6,6 +6,7 @@ import instagram from '../img/instagram.gif'
 import vk from '../img/vk.gif'
 import ok from '../img/odnoklassniki.png'
 import tg from '../img/telegram.gif'
+import '../styles/Gif.css'
 import '../styles/Links.css'
 
 const Links = () => {
@@ -75,7 +76,7 @@ const Links = () => {
         Официальная страница ОК Адвайта сиддхов. <br />
         <br />
       </h6>
-
+      <Image src='https://media.giphy.com/media/dzJ0WT8bOGPFU0lTwz/giphy.gif' className='giphy' />
     </Container>
   )
 }

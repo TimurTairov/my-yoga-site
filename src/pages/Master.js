@@ -1,15 +1,16 @@
 import React from 'react'
-import { Container, Image } from 'react-bootstrap'
+import { Container } from 'react-bootstrap'
+import MyCarousel from '../helpers/MyCarousel'
 import img1 from '../images/Guru/001.jpg'
 import img2 from '../images/Guru/002.jpg'
+import img3 from '../images/Guru/003.jpg'
 import '../styles/Slider.css'
 
 const Master = () => {
+  const fotos = [img1, img2, img3]
   return (
     <Container>
       <h1 className='title'>Шри Гуру Свами Вишнудевананда Гири</h1>
-
-      <Image src={img1} className='slider-guru mt-4'></Image>
       <h6 className='text-muted my-4'>
         <b className='my-name'>Свами Вишнудевананда Гири</b> (до 2010 г. — Сатгуру Свами Вишну Дэв) — русскоязычный духовный учитель (гуру, имеющий полномочия инициировать в санньясу),
         садху, реализованный мастер-джняни в традиции Адвайта-веданты и йоги; философ, теолог, писатель, паломник-путешественник, имеющий учеников по всему миру. <br />
@@ -26,7 +27,7 @@ const Master = () => {
         Более подробная биография мастера  <a href='https://www.advayta.org/master/biografiya-mastera/' target='_blank' rel='noreferrer'>здесь</a>
         <br />
       </h6>
-      <Image src={img2} className='slider-guru'></Image>
+      <MyCarousel fotos={fotos} />
     </Container>
   )
 }

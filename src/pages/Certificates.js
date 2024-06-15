@@ -1,5 +1,6 @@
 import React from 'react'
-import { Container, Carousel } from 'react-bootstrap'
+import { Container } from 'react-bootstrap'
+import MyCarousel from '../helpers/MyCarousel'
 import img1 from '../images/Certificates/001.jpg'
 import img2 from '../images/Certificates/002.jpg'
 import img3 from '../images/Certificates/003.jpg'
@@ -17,10 +18,12 @@ import img12 from '../images/Certificates/012.jpg'
 import '../styles/Slider.css'
 
 const Certificates = () => {
+  const fotos = [img1, img2, img3, img4, img4, img5, img6, img7, img8, img9, img10, img11, img12]
   return (
     <Container className='main-container'>
       <h1 className='title'>Сертификаты и памятные листы</h1>
-      <Carousel slide fade data-bs-theme="dark">
+
+      {/* <Carousel slide fade data-bs-theme="dark">
         <Carousel.Item className='d-flex justify-content-center'>
           <img
             className='certificate-slider'
@@ -117,7 +120,10 @@ const Certificates = () => {
           />
         </Carousel.Item>
 
-      </Carousel>
+      </Carousel> */}
+
+      <MyCarousel fotos={fotos} />
+
     </Container>
   )
 }

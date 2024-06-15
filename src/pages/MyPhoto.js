@@ -1,4 +1,5 @@
-import { Container, Carousel } from 'react-bootstrap'
+import { Container } from 'react-bootstrap'
+import MyCarousel from '../helpers/MyCarousel'
 import img1 from '../images/MyPhoto/001.jpg'
 import img2 from '../images/MyPhoto/002.jpg'
 import img3 from '../images/MyPhoto/003.jpg'
@@ -24,11 +25,14 @@ import '../styles/Slider.css'
 
 const MyPhoto = () => {
 
+  const fotos = [img1, img2, img3, img4, img4, img5, img6, img7, img8, img9, img10, img11, img12, img13, img14, img15, img16, img17, img18, img19, img20]
+
   return (
     <Container className='main-container'>
       <h1 className="title">Мои фото</h1>
+      <MyCarousel fotos={fotos} />
 
-      <Carousel slide fade touch data-bs-theme="dark"
+      {/* <Carousel slide fade touch data-bs-theme="dark"
       // nextIcon={<span aria-hidden="true" className="carousel-control-next-icon changed" />}
       // prevIcon={<span aria-hidden="true" className="carousel-control-prev-icon changed" />}
       >
@@ -193,8 +197,7 @@ const MyPhoto = () => {
           />
         </Carousel.Item>
 
-      </Carousel>
-
+      </Carousel> */}
 
     </Container>
   )
