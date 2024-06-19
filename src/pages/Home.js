@@ -1,86 +1,80 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
 import { Button, Container, Image } from 'react-bootstrap'
+import { IoCheckmarkDone } from "react-icons/io5";
 import myPhoto from '../images/myphoto.jpg'
-import done from '../gif/done-96.png'
 import namaste from '../images/namaste.png'
-import om from '../gif/om.gif'
-import trishula from '../gif/trishula.gif'
-
 import '../styles/Home.css'
 
 const Home = () => {
   const navigate = useNavigate()
 
-  // const navigateAndReset = (to) => {
-  //   navigate(to, { replace: true });
-  //   window.scrollTo(0, 0);
-  // };
-
   return (
-    <Container className="flex-container">
+    <div className='home'>
+      <Container className="flex-container">
 
-      <header className="flex-header mt-4">
-        <div className="flex-img mt-4">
-          <Image src={myPhoto} className="home-img" />
-        </div>
+        <header className="flex-header mt-5">
+          <div className="flex-img mt-5 mb-5">
+            <Image src={myPhoto} className="home-img" />
+          </div>
 
-        <h3 className="text-muted">
-          <Image src={om} className='gif' />
-          <b>Намасте</b>
-          <Image src={namaste} className='gif' />
-          <br /> Вас приветствует <b className='my-name'>Тиртхадева</b> <br />
-        </h3>
-        <h3 className='text-muted'> В миру <b className='my-name'>Тимур Таиров</b></h3>
-      </header>
+          <h3>
+            {/* <Image src={om} className='gif' /> */}
+            <b>Намасте</b>
+            <Image src={namaste} className='home-gif' />
+            <br /> Вас приветствует <b className='my-name'>Тиртхадева</b> <br />
+          </h3>
+          <h3> В миру <b className='my-name'>Тимур Таиров</b></h3>
+        </header>
 
-      <main className="mt-4">
+        <main className="mt-5">
 
-        <div className='home-container'>
-          <h4 className='text-muted'>
-            <Image src={done} className='gif' />
-            Ученик просветленного мастера
-          </h4>
-          <h4 className='text-muted'>
-            <Image src={done} className='gif' />
-            Преподаватель Йоги и Медитации
-          </h4>
-          <h4 className='text-muted'>
-            <Image src={done} className='gif' />
-            Ваш наставник на пути Йоги и Дхармы
-          </h4>
-        </div>
+          <div className='home-container'>
+            <h5>
+              <IoCheckmarkDone className='me-2 home-done' />
+              Ученик просветленного мастера
+            </h5>
+            <h5>
+              <IoCheckmarkDone className='me-2 home-done' />
+              Преподаватель Йоги и Медитации
+            </h5>
+            <h5>
+              <IoCheckmarkDone className='me-2 home-done' />
+              Ваш наставник на пути Йоги и Дхармы
+            </h5>
+          </div>
 
-        <h4 className="mt-4 d-flex justify-content-center"><b>Моя миссия:</b></h4>
+          <h4 className="mt-5 d-flex justify-content-center"><b>Моя миссия:</b></h4>
 
-        <div className='home-container'>
-          <h4 className='text-muted'>
-            <Image src={done} className='gif' />
-            Cлужение Высшим идеалам Йоги (Гуру, Дхарме и сангхе)
-          </h4>
-          <h4 className='text-muted'>
-            <Image src={done} className='gif' />
-            Помощь всем живым существам в преодолении неведения
-          </h4>
-          <h4 className='text-muted'>
-            <Image src={done} className='gif' />
-            Распространение истинных знаний йоги <br />
-          </h4>
-        </div>
+          <div className='home-container'>
+            <h5>
+              <IoCheckmarkDone className='me-2 home-done' />
+              Cлужение Высшим идеалам йоги (Гуру, Дхарме и Cангхе)
+            </h5>
+            <h5>
+              <IoCheckmarkDone className='me-2 home-done' />
+              Помощь всем живым существам в преодолении неведения
+            </h5>
+            <h5>
+              <IoCheckmarkDone className='me-2 home-done' />
+              Распространение истинных знаний йоги <br />
+            </h5>
+          </div>
 
-        <div className='home-flex-item'>
-          <Button className='flat-btn' variant='flat' onClick={() => navigate('education')}>О себе</Button>
-          <Button className='flat-btn' variant='flat' onClick={() => navigate('contacts')}>Контакты</Button>
-          <Button className='flat-btn' variant='flat' onClick={() => navigate('schedule')}>Расписание</Button>
-          <Button className='flat-btn' variant='flat' onClick={() => navigate('master')}>Традиция</Button>
-          <Button className='flat-btn' variant='flat' onClick={() => navigate('myvideo')}>Мои видео</Button>
-          <Button className='flat-btn' variant='flat' onClick={() => navigate('videosguru')}>Видео с Гуру</Button>
-        </div>
+          <div className='home-flex-item mt-5'>
+            <Button className='flat-btn' variant='flat' onClick={() => navigate('education')}>О себе</Button>
+            <Button className='flat-btn' variant='flat' onClick={() => navigate('contacts')}>Контакты</Button>
+            <Button className='flat-btn' variant='flat' onClick={() => navigate('schedule')}>Расписание</Button>
+            <Button className='flat-btn' variant='flat' onClick={() => navigate('master')}>Традиция</Button>
+            <Button className='flat-btn' variant='flat' onClick={() => navigate('myvideo')}>Мои видео</Button>
+            <Button className='flat-btn' variant='flat' onClick={() => navigate('videosguru')}>Видео с Гуру</Button>
+          </div>
 
-
-        <Image src={trishula} className='trishula' />
-      </main>
-    </Container >
+          {/* <Image src={trishula} className='trishula' /> */}
+          <Image src='https://media.giphy.com/media/8z9awszUWQHlzRjlxQ/giphy.gif' className='home-main-gif mt-5' />
+        </main>
+      </Container >
+    </div>
   )
 }
 

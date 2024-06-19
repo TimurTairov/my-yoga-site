@@ -1,0 +1,9 @@
+.nauli {
+  color: var(--main-text-color);
+  background-color: var(--main-background-color);
+}
+
+.react-player {
+  border: 1px solid var(--main-text-color);
+  border-radius: 5px;
+}

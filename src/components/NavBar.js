@@ -1,15 +1,20 @@
 import React from 'react'
 import { Navbar, Container, Nav, NavDropdown } from 'react-bootstrap'
 import { NavLink } from 'react-router-dom'
+import BtnDarkMode from './btnDarkMode/BtnDarkMode'
 import '../styles/Navbar.css'
 import logo from '../img/logo.svg'
 
 
 const NavBar = () => {
 
+
+
   return (
     <Navbar
-      bg="light" data-bs-theme="light"
+      //bg="light"
+      //bg="dark"
+      data-bs-theme='dark'
       collapseOnSelect expand='lg' className='my-navbar'>
       <Container>
         <Navbar.Toggle aria-controls='responsive-navbar-nav' className='navbar-button' />
@@ -87,6 +92,11 @@ const NavBar = () => {
             </NavDropdown>
 
           </Nav>
+
+          <Nav className='top-menu dark-mode'>
+            <BtnDarkMode />
+          </Nav>
+
         </Navbar.Collapse>
       </Container>
     </Navbar>

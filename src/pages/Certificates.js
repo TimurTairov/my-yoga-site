@@ -13,118 +13,17 @@ import img9 from '../images/Certificates/009.jpg'
 import img10 from '../images/Certificates/010.jpg'
 import img11 from '../images/Certificates/011.jpg'
 import img12 from '../images/Certificates/012.jpg'
-
-
-import '../styles/Slider.css'
+import '../styles/Certificates.css'
 
 const Certificates = () => {
   const fotos = [img1, img2, img3, img4, img4, img5, img6, img7, img8, img9, img10, img11, img12]
   return (
-    <Container className='main-container'>
-      <h1 className='title'>Сертификаты и памятные листы</h1>
-
-      {/* <Carousel slide fade data-bs-theme="dark">
-        <Carousel.Item className='d-flex justify-content-center'>
-          <img
-            className='certificate-slider'
-            src={img1}
-            alt="img1"
-          />
-        </Carousel.Item>
-
-        <Carousel.Item className='d-flex justify-content-center'>
-          <img
-            className="certificate-slider"
-            src={img2}
-            alt="img2"
-          />
-        </Carousel.Item>
-
-        <Carousel.Item className='d-flex justify-content-center'>
-          <img
-            className="certificate-slider"
-            src={img3}
-            alt="img3"
-          />
-        </Carousel.Item>
-
-        <Carousel.Item className='d-flex justify-content-center'>
-          <img
-            className="certificate-slider"
-            src={img4}
-            alt="img4"
-          />
-        </Carousel.Item>
-
-        <Carousel.Item className='d-flex justify-content-center'>
-          <img
-            className="certificate-slider"
-            src={img5}
-            alt="img5"
-          />
-        </Carousel.Item>
-
-        <Carousel.Item className='d-flex justify-content-center'>
-          <img
-            className="certificate-slider"
-            src={img6}
-            alt="img6"
-          />
-        </Carousel.Item>
-
-        <Carousel.Item className='d-flex justify-content-center'>
-          <img
-            className="certificate-slider"
-            src={img7}
-            alt="img7"
-          />
-        </Carousel.Item>
-
-        <Carousel.Item className='d-flex justify-content-center'>
-          <img
-            className="certificate-slider"
-            src={img8}
-            alt="img8"
-          />
-        </Carousel.Item>
-
-        <Carousel.Item className='d-flex justify-content-center'>
-          <img
-            className="certificate-slider"
-            src={img9}
-            alt="img9"
-          />
-        </Carousel.Item>
-
-        <Carousel.Item className='d-flex justify-content-center'>
-          <img
-            className="certificate-slider"
-            src={img10}
-            alt="img10"
-          />
-        </Carousel.Item>
-
-        <Carousel.Item className='d-flex justify-content-center'>
-          <img
-            className="certificate-slider"
-            src={img11}
-            alt="img11"
-          />
-        </Carousel.Item>
-
-        <Carousel.Item className='d-flex justify-content-center'>
-          <img
-            className="certificate-slider"
-            src={img12}
-            alt="img12"
-          />
-        </Carousel.Item>
-
-      </Carousel> */}
-
-      <MyCarousel fotos={fotos} />
-
-    </Container>
+    <div className='certificates'>
+      <Container className='main-container'>
+        <h1 className="title mb-5 d-flex justify-content-center">Сертификаты</h1>
+        <MyCarousel fotos={fotos} />
+      </Container>
+    </div>
   )
 }
 

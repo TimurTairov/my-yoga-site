@@ -2,31 +2,41 @@
 .my-navbar .navlink,
 .my-navbar .navbar-button,
 .my-navbar .text-logo,
+.my-navbar #basic-nav-dropdown,
 .navlink a {
-  color: darkcyan;
+  color: var(--navbar-text-color);
   /* text-transform: uppercase; */
   font-size: 1.7rem;
   font-weight: 500;
 }
 
-#basic-nav-dropdown {
+/* #basic-nav-dropdown {
   color: darkcyan;
+} */
+
+.my-navbar {
+  background-color: var(--navbar-background-color);
+  border-bottom: 1px solid darkcyan;
 }
 
 .nav-dropdown-item a {
-  color: darkcyan;
+  color: var(--navbar-text-color);
 }
 
 .nav-dropdown-item:active {
   background-color: darkcyan;
 }
+
 .dropdown-menu {
+  background-color: var(--navbar-background-color);
   --bs-dropdown-border-color: darkcyan;
 }
+
 .img-logo {
-  width: 50px;
+  width: 60px;
   margin-right: 10px;
 }
+
 .navbarHome {
   width: 40px;
 }
@@ -36,26 +46,44 @@
   align-items: center;
 }
 
+.navbar-toggler-icon {
+  background-image: url(https://vosdlife.org/img/logo.svg);
+}
+
+.dark-mode {
+  margin-left: 30px;
+}
+
 #basic-nav-dropdown:hover,
 .navlink:hover {
-  color: darkcyan;
+  /* color: darkcyan; */
   font-weight: 600;
-  border-bottom: 3px solid darkcyan;
+  border-bottom: 3px solid var(--navbar-text-color);
   width: 100%;
 }
 
 .nav-dropdown-item:hover {
-  background-color: #b1eec87a;
+  background-color: #99f5bc7a;
   color: darkcyan;
   font-weight: 600;
-  border-bottom: 2px solid darkcyan;
+  border-bottom: 1px solid var(--navbar-text-color);
   width: 100%;
 }
 
 @media ((max-width: 991px)) {
+  .img-logo {
+    display: none;
+  }
+
   .logo {
     margin-top: 20px;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
+  }
+
+  .dark-mode {
+    margin-left: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 
   #basic-nav-dropdown:hover,

@@ -1,0 +1,14 @@
+.metody {
+  color: var(--main-text-color);
+  background-color: var(--main-background-color);
+}
+
+.metody-gif {
+  width: 49%;
+  height: auto;
+}
+
+.metody-img {
+  width: 100%;
+  height: auto;
+}

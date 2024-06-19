@@ -22,17 +22,19 @@ import img19 from '../images/MyPhoto/019.jpg'
 import img20 from '../images/MyPhoto/020.jpg'
 
 import '../styles/Slider.css'
+import '../styles/MyPhoto.css'
 
 const MyPhoto = () => {
 
   const fotos = [img1, img2, img3, img4, img4, img5, img6, img7, img8, img9, img10, img11, img12, img13, img14, img15, img16, img17, img18, img19, img20]
 
   return (
-    <Container className='main-container'>
-      <h1 className="title">Мои фото</h1>
-      <MyCarousel fotos={fotos} />
+    <div className='my-photo'>
+      <Container className='main-container'>
+        <h1 className="title mb-5 d-flex justify-content-center">Мои фото</h1>
+        <MyCarousel fotos={fotos} />
 
-      {/* <Carousel slide fade touch data-bs-theme="dark"
+        {/* <Carousel slide fade touch data-bs-theme="dark"
       // nextIcon={<span aria-hidden="true" className="carousel-control-next-icon changed" />}
       // prevIcon={<span aria-hidden="true" className="carousel-control-prev-icon changed" />}
       >
@@ -199,7 +201,8 @@ const MyPhoto = () => {
 
       </Carousel> */}
 
-    </Container>
+      </Container>
+    </div>
   )
 }
 

@@ -1,0 +1,19 @@
+.videoSGuru {
+  color: var(--main-text-color);
+  background-color: var(--main-background-color);
+}
+
+.accordion-body {
+  color: var(--main-text-color);
+  background-color: var(--main-background-color);
+}
+
+.accordion-button {
+  color: var(--main-text-color);
+  background-color: var(--main-background-color);
+}
+
+.videoSGuru-gif {
+  width: 100%;
+  height: auto;
+}

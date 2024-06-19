@@ -1,7 +1,9 @@
 .my-footer {
   margin-top: auto;
   background-color: #343434;
+  border-top: 1px solid darkcyan;
 }
+
 .footer-container {
   /* margin-top: 1rem; */
   display: flex;

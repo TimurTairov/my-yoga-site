@@ -11,7 +11,7 @@ const MyFooter = () => {
   return (
 
     <footer className="my-footer">
-      <Container fluid className="footer-container">
+      <Container fluid className="footer-container mt-4">
         <div className="row">
 
           <div className="col-md-3 col-6 footer-content">

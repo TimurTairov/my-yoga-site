@@ -5,7 +5,6 @@ import './styles/App.css'
 function App() {
 
   return (
-
     <div className='app'>
       <AppRouter className='app-router' />
     </div>

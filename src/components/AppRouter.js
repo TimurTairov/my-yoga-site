@@ -1,23 +1,7 @@
 import { lazy } from 'react'
 import { Routes, Route, BrowserRouter as Router } from "react-router-dom"
-// import Home from '../pages/Home'
-// import Contacts from '../pages/Contacts'
-// import Certificates from '../pages/Certificates'
-// import MyPhoto from '../pages/MyPhoto'
-// import Feedbacks from '../pages/Feedbacks'
-// import Education from '../pages/Education'
-// import Schedule from '../pages/Schedule'
-// import BasicRules from '../pages/BasicRules'
-// import Master from '../pages/Master'
-// import Pribejishe from '../pages/Pribejishe'
-// import Metody from '../pages/Metody'
-//import Links from '../pages/Links'
-//import MyVideo from '../pages/MyVideo'
-//import VideoSGuru from '../pages/VideoSGuru'
-//import VideoSMonahami from '../pages/VideoSMonahami'
-//import Nauli from '../pages/Nauli'
 import MainLayout from '../layouts/MainLayout'
-import ScrollToTop from './ScrollToTop'
+import ScrollToTop from '../utils/scrollToTop'
 
 const Home = lazy(() => import('../pages/Home'))
 const Contacts = lazy(() => import('../pages/Contacts'))

@@ -1,0 +1,14 @@
+.basic-rules {
+  color: var(--main-text-color);
+  background-color: var(--main-background-color);
+}
+
+.basic-rules-gif {
+  width: 100%;
+  height: auto;
+}
+
+.basic-rules-gif-2 {
+  width: 49%;
+  height: auto;
+}

@@ -1,3 +1,8 @@
+.Links {
+  color: var(--main-text-color);
+  background-color: var(--main-background-color);
+}
+
 .links:hover {
   color: blueviolet;
   text-decoration: underline;
@@ -7,4 +12,9 @@
   width: 20px;
   height: 20px;
   margin: 9.5px;
+}
+
+.links-gif {
+  width: 100%;
+  height: auto;
 }

@@ -11,6 +11,7 @@ const YoutubePlayer = (props) => {
         <div key={video.url} className='video-container'>
           <h6 className='video-title'>{video.title}</h6>
           <ReactPlayer
+            key={video.url}
             className='react-player'
             light
             url={video.url}

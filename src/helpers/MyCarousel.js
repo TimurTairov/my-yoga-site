@@ -10,8 +10,8 @@ const MyCarousel = (props) => {
       // prevIcon={<span aria-hidden="true" className="carousel-control-prev-icon changed" />}
       >
         {
-          props.fotos.map(foto => (
-            <Carousel.Item className='d-flex justify-content-center'>
+          props.fotos.map((foto, index) => (
+            <Carousel.Item key={foto + index} className='d-flex justify-content-center'>
               <img
                 className="slider-img"
                 src={foto}
