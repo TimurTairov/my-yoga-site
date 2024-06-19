@@ -2,3 +2,18 @@
   color: var(--main-text-color);
   background-color: var(--main-background-color);
 }
+
+.prib-container-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.pribejishe-img {
+  max-width: 30%;
+}
+
+.prib-img-full {
+  width: 100%;
+  height: auto;
+}

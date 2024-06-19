@@ -1,9 +1,9 @@
 import { Container, Image } from "react-bootstrap"
 import { NavLink } from 'react-router-dom'
-import vk from '../img/VK.png'
-import tg from '../img/tg.png'
-import insta from '../img/instagram.png'
-import youtube from '../img/youtube.png'
+import { FaYoutube } from "react-icons/fa";
+import { FaTelegram } from "react-icons/fa";
+import { SlSocialVkontakte } from "react-icons/sl";
+import { FaInstagram } from "react-icons/fa";
 import trishula from '../images/emblem_64x64.png'
 import '../styles/MyFooter.css'
 
@@ -65,23 +65,22 @@ const MyFooter = () => {
             <h5>социальные сети</h5>
             <div className="footer-icons">
               <a href='https://vk.com/tirthadeva' target='_blank' rel='noreferrer'>
-                <Image src={vk} className='small-gif' />Vkontakte
+                <SlSocialVkontakte className='me-2' />Vkontakte
               </a>
 
               <a href='https://www.instagram.com/timur_brahmachari/' target='_blank' rel='noreferrer'>
-                <Image src={insta} className='small-gif' />Instagram
+                <FaInstagram className='me-2' />Instagram
               </a>
 
               <a href='https://www.youtube.com/@tirthadeva_yoga' target="_blank" rel="noreferrer">
-                <Image src={youtube} className='small-gif' />YouTube
+                <FaYoutube className='me-2' />YouTube
               </a>
 
               <a href='https://t.me/mdc_ShaktiMa' target='_blank' rel='noreferrer'>
-                <Image src={tg} className='small-gif' />Tg ShaktiMa
+                <FaTelegram className='me-2' />Tg ShaktiMa
               </a>
             </div>
           </div>
-
 
         </div>
 
