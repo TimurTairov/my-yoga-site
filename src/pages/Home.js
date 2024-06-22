@@ -51,9 +51,9 @@ const Home = () => {
             <Image src={om} className='home-gif' />
             <b>Намасте</b>
             <Image src={namaste} className='home-gif' />
-            <br /> Вас приветствует <b className='my-name'>Тиртхадева</b> <br />
+            <br /> Вас приветствует <b className='home-title'>Тиртхадева</b> <br />
           </h3>
-          <h3> В миру <b className='my-name'>Тимур Таиров</b></h3>
+          <h3> В миру <b className='home-title'>Тимур Таиров</b></h3>
         </header>
 
         <main className="mt-5">
@@ -73,7 +73,7 @@ const Home = () => {
             </h5>
           </div>
 
-          <h4 className="mt-5 d-flex justify-content-center"><b>Моя миссия:</b></h4>
+          <h4 className="home-title mt-5 d-flex justify-content-center"><b>Моя миссия:</b></h4>
 
           <div className='home-container'>
             <h5>

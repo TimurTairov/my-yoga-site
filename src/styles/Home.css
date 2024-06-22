@@ -59,16 +59,11 @@
   text-align: center;
 }
 
-.my-name {
-  color: var(--title-icon-color);
-}
-
-.home-tittle {
+.home-title {
   font-weight: 700;
   color: var(--title-icon-color);
 }
-
-.home-main-gif {
+y .home-main-gif {
   width: 100%;
   height: auto;
   box-shadow: var(--box-shadow);
