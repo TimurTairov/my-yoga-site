@@ -71,7 +71,7 @@ y .home-main-gif {
 
 .flat-btn {
   /* background-color: purple; */
-  background-color: var(--title-icon-color);
+  background-color: var(--navbar-text-color);
   color: var(--flat-btn-color);
   font-size: 1rem;
   margin: 10px;
