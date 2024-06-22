@@ -53,7 +53,7 @@ const Home = () => {
             <Image src={namaste} className='home-gif' />
             <br /> Вас приветствует <b className='home-title'>Тиртхадева</b> <br />
           </h3>
-          <h3> В миру <b className='home-title'>Тимур Таиров</b></h3>
+          <h3> В миру <b>Тимур Таиров</b></h3>
         </header>
 
         <main className="mt-5">
