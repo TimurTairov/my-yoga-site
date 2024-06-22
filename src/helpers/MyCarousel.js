@@ -1,13 +1,14 @@
 import { Carousel } from 'react-bootstrap'
+
 import '../styles/Slider.css'
 
 const MyCarousel = (props) => {
   return (
     <div>
       <Carousel slide fade touch
-        data-bs-theme="dark"
-      // nextIcon={<span aria-hidden="true" className="carousel-control-next-icon changed" />}
-      // prevIcon={<span aria-hidden="true" className="carousel-control-prev-icon changed" />}
+      //data-bs-theme="dark"
+      //nextIcon={<span aria-hidden="true" className="carousel-control-next-icon changed" />}
+      //prevIcon={<span aria-hidden="true" className="carousel-control-prev-icon changed" />}
       >
         {
           props.fotos.map((foto, index) => (

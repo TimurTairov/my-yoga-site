@@ -20,7 +20,7 @@ const NavBar = () => {
         <Navbar.Toggle aria-controls='responsive-navbar-nav' className='navbar-button' />
         <Navbar.Collapse id='responsive-navbar-nav'>
 
-          <Nav className='me-auto top-menu logo'>
+          <Nav className='me-auto logo'>
             <NavLink to='.' end>
               <div className='logo-container'>
                 <img src={logo} className='img-logo' alt='home' />
@@ -31,7 +31,7 @@ const NavBar = () => {
 
           <Nav className='top-menu my-nav'>
 
-            <NavDropdown title='О себе' id='basic-nav-dropdown'>
+            <NavDropdown title='О себе' id='basic-nav-dropdown' className='main-menu'>
               <NavDropdown.Item className='nav-dropdown-item'>
                 <NavLink to='education'> Образование </NavLink>
               </NavDropdown.Item>
@@ -47,7 +47,7 @@ const NavBar = () => {
               </NavDropdown.Item>
             </NavDropdown>
 
-            <NavDropdown title='Йога' id='basic-nav-dropdown'>
+            <NavDropdown title='Йога' id='basic-nav-dropdown' className='main-menu'>
               <NavDropdown.Item className='nav-dropdown-item'>
                 <NavLink to='schedule'> Расписание </NavLink>
               </NavDropdown.Item>
@@ -63,7 +63,7 @@ const NavBar = () => {
               </NavDropdown.Item>
             </NavDropdown>
 
-            <NavDropdown title='Традиция' id='basic-nav-dropdown'>
+            <NavDropdown title='Традиция' id='basic-nav-dropdown' className='main-menu'>
               <NavDropdown.Item className='nav-dropdown-item' to='/master'>
                 <NavLink to='master'> Мастер </NavLink>
               </NavDropdown.Item>
@@ -79,7 +79,7 @@ const NavBar = () => {
               </NavDropdown.Item>
             </NavDropdown>
 
-            <NavDropdown title='Видео' id='basic-nav-dropdown'>
+            <NavDropdown title='Видео' id='basic-nav-dropdown' className='main-menu'>
               <NavDropdown.Item className='nav-dropdown-item' to='/myvideo'>
                 <NavLink to='myvideo'> Мои видео </NavLink>
               </NavDropdown.Item>

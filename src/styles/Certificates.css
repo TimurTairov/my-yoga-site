@@ -2,3 +2,17 @@
   color: var(--main-text-color);
   background-color: var(--main-background-color);
 }
+
+/* .carousel-control-prev-icon,
+.carousel-control-next-icon {
+  border: 1px solid grey;
+  border-radius: 0.3rem;
+} */
+
+/* .carousel-control-prev-icon {
+  background-image: url('../images/prev.png');
+}
+
+.carousel-control-next-icon {
+  background-image: url('../images/next.png');
+} */

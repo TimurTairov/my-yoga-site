@@ -1,6 +1,7 @@
 import { useEffect } from 'react'
 import { useLocalStorage } from './../../utils/useLocalStorage'
 import detectDarkMode from '../../utils/detectDarkMode'
+//import { useTheme } from '../../store/store'
 import "./style.css"
 import sun from "./sun.svg"
 import moon from "./moon.svg"
@@ -11,7 +12,6 @@ const BtnDarkMode = () => {
 
   const [darkMode, setDarkMode] = useLocalStorage('darkMode', detectDarkMode())
 
-
   useEffect(() => {
     if (darkMode === 'dark') {
       document.body.classList.add('dark')
@@ -19,7 +19,6 @@ const BtnDarkMode = () => {
     }
     else {
       document.body.classList.remove('dark')
-
     }
   }, [darkMode])
 
@@ -49,5 +48,6 @@ const BtnDarkMode = () => {
     </button>
   )
 }
+
 
 export default BtnDarkMode

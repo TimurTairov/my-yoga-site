@@ -3,10 +3,10 @@
   background-color: var(--main-background-color);
 }
 
-.links:hover {
+/* .links:hover {
   color: blueviolet;
   text-decoration: underline;
-}
+} */
 
 .gif {
   width: 20px;

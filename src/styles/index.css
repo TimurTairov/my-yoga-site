@@ -11,7 +11,27 @@ body,
   display: flex;
   flex-direction: column;
 }
+
+/* :root {
+  --navbar-background-color: #ffffff;
+  --navbar-text-color: darkcyan;
+  --main-background-color: #ffffff;
+  --main-text-color: #000536;
+  --box-shadow: 0 0 54px rgba(0, 0, 0, 0.4);
+  --link_color: navy;
+}
+
+[data-theme='dark'] {
+  --navbar-background-color: #343434;
+  --navbar-text-color: #ccc;
+  --main-background-color: #343434;
+  --main-text-color: #ccc;
+  --box-shadow: 0 0 54px rgba(239, 240, 228, 0.932);
+  --link-color: cyan;
+} */
+
 * {
   margin: 0;
   padding: 0;
+  transition: all 0.2s ease-in-out;
 }

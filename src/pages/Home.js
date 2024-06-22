@@ -1,13 +1,36 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { Button, Container, Image } from 'react-bootstrap'
 import { IoCheckmarkDone } from "react-icons/io5";
 import myPhoto from '../images/myphoto.jpg'
 import namaste from '../images/namaste.png'
+import trishula from '../gif/trishula.gif'
+import shivalingam from '../gif/mahadev-adoration-to-shiva.gif'
+import detectDarkMode from '../utils/detectDarkMode'
+import { useLocalStorage } from '../utils/useLocalStorage'
 import '../styles/Home.css'
 
 const Home = () => {
   const navigate = useNavigate()
+
+  const [isDark, setIsDark] = useLocalStorage('darkMode', detectDarkMode())
+  const [gifka, setGifka] = useState(trishula)
+  // let isDark = detectDarkMode()
+  //console.log(isDark)
+
+  useEffect(() => {
+    if (isDark === 'dark') {
+      setIsDark('dark')
+      setGifka(shivalingam)
+      console.log("Dark")
+    }
+    else {
+      setIsDark('light')
+      setGifka(trishula)
+      console.log('light')
+    }
+  }, [isDark])
+
 
   return (
     <div className='home'>
@@ -70,7 +93,7 @@ const Home = () => {
             <Button className='flat-btn' variant='flat' onClick={() => navigate('videosguru')}>Видео с Гуру</Button>
           </div>
 
-          {/* <Image src={trishula} className='trishula' /> */}
+          {/* <Image src={gifka} className='home-main-gif mt-5' /> */}
           <Image src='https://media.giphy.com/media/8z9awszUWQHlzRjlxQ/giphy.gif' className='home-main-gif mt-5' />
         </main>
       </Container >

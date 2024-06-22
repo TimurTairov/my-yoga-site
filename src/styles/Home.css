@@ -70,6 +70,7 @@
 .home-main-gif {
   width: 100%;
   height: auto;
+  box-shadow: var(--box-shadow);
 }
 
 .flat-btn {
