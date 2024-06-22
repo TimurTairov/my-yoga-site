@@ -14,12 +14,13 @@
   width: 50px;
   height: 50px;
   margin-left: 10px;
+  margin-right: 10px;
   padding-bottom: 7px;
   /* margin: 9.5px; */
 }
 
 .home-done {
-  color: darkcyan;
+  color: var(--title-icon-color);
 }
 
 .flex-container {
@@ -59,12 +60,12 @@
 }
 
 .my-name {
-  color: darkcyan;
+  color: var(--title-icon-color);
 }
 
 .home-tittle {
   font-weight: 700;
-  color: darkcyan;
+  color: var(--title-icon-color);
 }
 
 .home-main-gif {
@@ -75,8 +76,8 @@
 
 .flat-btn {
   /* background-color: purple; */
-  background-color: darkcyan;
-  color: white;
+  background-color: var(--title-icon-color);
+  color: var(--flat-btn-color);
   font-size: 1rem;
   margin: 10px;
 }
@@ -86,9 +87,31 @@
   background-color: bluevi;
 }
 
+.yoga {
+  width: 150px;
+  height: auto;
+}
+
 @media ((max-width: 800px)) {
   .home-container {
     padding-left: 0px;
+  }
+  .yoga {
+    width: 120px;
+    height: auto;
+  }
+}
+
+@media ((max-width: 650px)) {
+  .yoga {
+    width: 100px;
+    height: auto;
+  }
+}
+@media ((max-width: 550px)) {
+  .yoga {
+    width: 80px;
+    height: auto;
   }
 }
 
@@ -98,6 +121,10 @@
   }
   .home-container {
     padding-left: 0px;
+  }
+  .yoga {
+    width: 60px;
+    height: auto;
   }
 }
 
@@ -113,5 +140,9 @@
   }
   .home-container {
     padding-left: 0px;
+  }
+  .yoga {
+    width: 50px;
+    height: auto;
   }
 }

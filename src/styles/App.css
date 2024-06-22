@@ -1,27 +1,25 @@
 body {
   --navbar-background-color: #ffffff;
   --navbar-text-color: darkcyan;
-
   --main-background-color: #ffffff;
   --main-text-color: #000536;
-
   --box-shadow: 0 0 54px rgba(0, 0, 0, 0.4);
   --link-color: blue;
   --link-hover-color: blueviolet;
-  --title-color: darkcyan;
+  --title-icon-color: darkcyan;
+  --flat-btn-color: #ccc;
 }
 
 body.dark {
   --navbar-background-color: #343434;
   --navbar-text-color: #ccc;
-
   --main-background-color: #343434;
   --main-text-color: #ccc;
-
   --box-shadow: 0 0 54px rgba(239, 240, 228, 0.932);
   --link-color: darkcyan;
   --link-hover-color: cyan;
-  --title-color: cyan;
+  --title-icon-color: #00ffff;
+  --flat-btn-color: #343434;
 }
 
 .app {
@@ -32,7 +30,7 @@ body.dark {
 
 .title {
   font-weight: 700;
-  color: var(--title-color);
+  color: var(--title-icon-color);
 }
 
 .img {

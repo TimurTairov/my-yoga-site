@@ -3,7 +3,14 @@ import { useNavigate } from 'react-router-dom'
 import { Button, Container, Image } from 'react-bootstrap'
 import { IoCheckmarkDone } from "react-icons/io5";
 import myPhoto from '../images/myphoto.jpg'
-import namaste from '../images/namaste.png'
+import namaste from '../images/eid-96.png'
+import om from '../images/icons8-om-96.png'
+import shiva from '../images/icons8-shiva-dance-67.png'
+import yog1 from '../images/yog2.png'
+import yog2 from '../images/yog1.png'
+import yog3 from '../images/yog3.png'
+import yog4 from '../images/yog4.png'
+
 import trishula from '../gif/trishula.gif'
 import shivalingam from '../gif/mahadev-adoration-to-shiva.gif'
 import detectDarkMode from '../utils/detectDarkMode'
@@ -13,23 +20,22 @@ import '../styles/Home.css'
 const Home = () => {
   const navigate = useNavigate()
 
-  const [isDark, setIsDark] = useLocalStorage('darkMode', detectDarkMode())
-  const [gifka, setGifka] = useState(trishula)
-  // let isDark = detectDarkMode()
-  //console.log(isDark)
+  // const [isDark, setIsDark] = useLocalStorage('darkMode', detectDarkMode())
+  // const [gifka, setGifka] = useState(trishula)
 
-  useEffect(() => {
-    if (isDark === 'dark') {
-      setIsDark('dark')
-      setGifka(shivalingam)
-      console.log("Dark")
-    }
-    else {
-      setIsDark('light')
-      setGifka(trishula)
-      console.log('light')
-    }
-  }, [isDark])
+
+  // useEffect(() => {
+  //   if (isDark === 'dark') {
+  //     setIsDark('dark')
+  //     setGifka(shivalingam)
+  //     console.log("Dark")
+  //   }
+  //   else {
+  //     setIsDark('light')
+  //     setGifka(trishula)
+  //     console.log('light')
+  //   }
+  // }, [isDark])
 
 
   return (
@@ -42,7 +48,7 @@ const Home = () => {
           </div>
 
           <h3>
-            {/* <Image src={om} className='gif' /> */}
+            <Image src={om} className='home-gif' />
             <b>Намасте</b>
             <Image src={namaste} className='home-gif' />
             <br /> Вас приветствует <b className='my-name'>Тиртхадева</b> <br />
@@ -84,7 +90,7 @@ const Home = () => {
             </h5>
           </div>
 
-          <div className='home-flex-item mt-5'>
+          <div className='home-flex-item mt-5 mb-5'>
             <Button className='flat-btn' variant='flat' onClick={() => navigate('education')}>О себе</Button>
             <Button className='flat-btn' variant='flat' onClick={() => navigate('contacts')}>Контакты</Button>
             <Button className='flat-btn' variant='flat' onClick={() => navigate('schedule')}>Расписание</Button>
@@ -93,8 +99,15 @@ const Home = () => {
             <Button className='flat-btn' variant='flat' onClick={() => navigate('videosguru')}>Видео с Гуру</Button>
           </div>
 
-          {/* <Image src={gifka} className='home-main-gif mt-5' /> */}
-          <Image src='https://media.giphy.com/media/8z9awszUWQHlzRjlxQ/giphy.gif' className='home-main-gif mt-5' />
+          <div className='mb-5'></div>
+          <div className='d-flex justify-content-between mt-5'>
+            <Image src={yog1} className='yoga' />
+            <Image src={yog2} className='yoga' />
+            <Image src={shiva} className='yoga' />
+            <Image src={yog3} className='yoga' />
+            <Image src={yog4} className='yoga' />
+          </div>
+          {/* <Image src='https://media.giphy.com/media/8z9awszUWQHlzRjlxQ/giphy.gif' className='home-main-gif mt-5' /> */}
         </main>
       </Container >
     </div>

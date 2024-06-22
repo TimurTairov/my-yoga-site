@@ -1,7 +1,7 @@
 .my-footer {
   margin-top: auto;
   background-color: #343434;
-  border-top: 1px solid darkcyan;
+  border-top: 1px solid var(--title-icon-color);
 }
 
 .footer-container {

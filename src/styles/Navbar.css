@@ -34,7 +34,7 @@
 
 .my-navbar {
   background-color: var(--navbar-background-color);
-  /* border-bottom: 1px solid darkcyan; */
+  border-bottom: 1px solid var(--title-icon-color);
 }
 
 .nav-dropdown-item a {
