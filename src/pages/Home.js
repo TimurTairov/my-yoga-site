@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import { useNavigate } from 'react-router-dom'
 import { Button, Container, Image } from 'react-bootstrap'
 import { IoCheckmarkDone } from "react-icons/io5";
@@ -11,32 +11,10 @@ import yog2 from '../images/yog1.png'
 import yog3 from '../images/yog3.png'
 import yog4 from '../images/yog4.png'
 
-import trishula from '../gif/trishula.gif'
-import shivalingam from '../gif/mahadev-adoration-to-shiva.gif'
-import detectDarkMode from '../utils/detectDarkMode'
-import { useLocalStorage } from '../utils/useLocalStorage'
 import '../styles/Home.css'
 
 const Home = () => {
   const navigate = useNavigate()
-
-  // const [isDark, setIsDark] = useLocalStorage('darkMode', detectDarkMode())
-  // const [gifka, setGifka] = useState(trishula)
-
-
-  // useEffect(() => {
-  //   if (isDark === 'dark') {
-  //     setIsDark('dark')
-  //     setGifka(shivalingam)
-  //     console.log("Dark")
-  //   }
-  //   else {
-  //     setIsDark('light')
-  //     setGifka(trishula)
-  //     console.log('light')
-  //   }
-  // }, [isDark])
-
 
   return (
     <div className='home'>

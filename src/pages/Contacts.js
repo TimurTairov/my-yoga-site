@@ -20,7 +20,7 @@ const Contacts = () => {
           <li className='flex-item'>
             <div className='contacts-container'>
               <Image src={location} className='contacts-img'></Image>
-              <h3 className='mx-2'> Локация</h3>
+              <h3 className='mx-2 mt-2'> Локация</h3>
             </div>
             <p>РФ, Москва. М. Новокосино.</p>
           </li>
@@ -28,7 +28,7 @@ const Contacts = () => {
           <li className='flex-item'>
             <div className='contacts-container'>
               <Image src={whatsapp} className='contacts-img'></Image>
-              <h3 className='mx-2'> WhatsApp</h3>
+              <h3 className='mx-2 mt-2'> WhatsApp</h3>
             </div>
             <p>
               <a href="whatsapp://send?phone=79672067710" target='_blank'
@@ -39,7 +39,7 @@ const Contacts = () => {
           <li className='flex-item'>
             <div className='contacts-container'>
               <Image src={tg} className='contacts-img'></Image>
-              <h3 className='mx-2'> Telegram</h3>
+              <h3 className='mx-2 mt-2'> Telegram</h3>
             </div>
             <p>
               <a href='https://t.me/tirthadeva'
@@ -55,7 +55,7 @@ const Contacts = () => {
           <li className='flex-item'>
             <div className='contacts-container'>
               <Image src={vk} className='contacts-img'></Image>
-              <h3 className='mx-2'> VK</h3>
+              <h3 className='mx-2 mt-2'> VK</h3>
             </div>
             <p>
               <a href='https://vk.com/tirthadeva'
@@ -71,7 +71,7 @@ const Contacts = () => {
           <li className='flex-item'>
             <div className='contacts-container'>
               <Image src={insta} className='contacts-img'></Image>
-              <h3 className='mx-2'> Instagram</h3>
+              <h3 className='mx-2 mt-2'> Instagram</h3>
             </div>
             <p>
               <a href='https://www.instagram.com/timur_brahmachari/'
@@ -87,7 +87,7 @@ const Contacts = () => {
           <li className='flex-item'>
             <div className='contacts-container'>
               <Image src={email} className='contacts-img'></Image>
-              <h3 className='mx-2'> Email</h3>
+              <h3 className='mx-2 mt-2'> Email</h3>
             </div>
             <p>
               <a href='mailto:tairovtk@gmail.com'
@@ -101,7 +101,7 @@ const Contacts = () => {
           <li className='flex-item'>
             <div className='contacts-container'>
               <Image src={youtube} className='contacts-img'></Image>
-              <h3 className='mx-2'> YouTube</h3>
+              <h3 className='mx-2 mt-2'> YouTube</h3>
             </div>
             <p className='text-muted'>
               <a href='https://www.youtube.com/@tirthadeva_yoga'
@@ -117,15 +117,14 @@ const Contacts = () => {
           <li className='flex-item'>
             <div className='contacts-container'>
               <Image src={skype} className='contacts-img'></Image>
-              <h3 className='mx-2'>Skype</h3>
+              <h3 className='mx-2 mt-2'>Skype</h3>
             </div>
             <p>t1m1985</p>
           </li>
 
-
-
         </ul>
-        <Image src={shivaLingam} className='contacts-gif' />
+
+        <Image src={shivaLingam} className='contacts-gif mt-5' />
       </Container>
     </div>
   )
