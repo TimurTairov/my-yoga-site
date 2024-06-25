@@ -6,22 +6,23 @@ const YoutubePlayer = (props) => {
 
 
   return (
-    <div>
+    <div className='video-container'>
       {props.videoHub.map(video => (
-        <div key={video.url} className='video-container'>
-          <h6 className='video-title'>{video.title}</h6>
+        <card key={video.url} className='video-card'>
+
           <ReactPlayer
             key={video.url}
             className='react-player'
             light
             url={video.url}
-            playIcon={<img src={playing} alt='playing' width='70' />}
+            playIcon={<img src={playing} alt='playing' width={'40px'} />}
             controls
             playing
-            width='100%'
-            height='40vh'
+            width='auto'
+            height='200px'
           />
-        </div>
+          <p className='video-title'>{video.title}</p>
+        </card>
       ))}
     </div>
   )

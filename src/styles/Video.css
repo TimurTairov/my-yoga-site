@@ -1,10 +1,18 @@
 .video-container {
-  margin: 40px 200px;
-  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+.video-card {
+  width: 350px;
+  margin: 10px 0px;
+  padding: 0px;
 }
 
 .video-title {
-  padding-bottom: 1px;
+  padding-top: 3px;
 }
 
 @media ((max-width: 1399px)) {
