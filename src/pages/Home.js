@@ -77,7 +77,6 @@ const Home = () => {
             <Button className='flat-btn' variant='flat' onClick={() => navigate('myvideo')}>Мои видео</Button>
           </div>
 
-          <div className='mb-5'></div>
           <div className='d-flex justify-content-between mt-5'>
             <Image src={yog1} className='yoga' />
             <Image src={yog2} className='yoga' />
