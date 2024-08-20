@@ -10,7 +10,6 @@ import skype from '../img/icons8-skype-96.png'
 import shivaLingam from '../gif/mahadev-adoration-to-shiva.gif'
 import '../styles/Contacts.css'
 
-
 const Contacts = () => {
   return (
     <div className='contacts'>

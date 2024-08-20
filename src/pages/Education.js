@@ -55,7 +55,7 @@ const Education = () => {
           2. 2020 г. - <a href='https://yogatechnology.ru/' target='_blank' rel="noreferrer">Высшая школа йога технологий.</a> Обучающий курс "Инструктор йоги в гамаках".
         </p>
         <p>
-          3. 2021 г. - по н.в. - <a href='https://www.advayta.org' target='_blank' rel="noreferrer">(ВОСД)</a> Всемирная община Санатана Дхармы. Обучение йоги в традиции Адвайта сиддхов. <br />
+          3. 2021 г. - по н.в. - <a href='https://www.advayta.org' target='_blank' rel="noreferrer">(ВОСД)</a> Всемирная община Санатана Дхармы. Обучение йоги в традиции Адвайта сиддхов: <a href='https://www.advayta.org' target='_blank' rel="noreferrer">институт риши Васиштхи.</a> <br />
           - Хатха йога, кундалини йога, медитация, созерцание <br />
           - Джняна и лайя йога <br />
           - Ритуальная практика (Бхаджан мандала, сутра, хома, пуджа, абхишека) <br />
